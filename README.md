@@ -13,10 +13,19 @@ Kho điều phối nội dung short-video cho **V General Construction** (Facebo
 
 ChatGPT chỉ cần quyền **đọc** repo `Prompt`.
 
+## Đội agent
+
+| # | Agent | File | Chạy khi |
+|---|---|---|---|
+| 01 | Planner — kịch bản, kế hoạch, phân việc | `agents/01-planner.md` | Thứ Hai + thứ Năm 08:50 KST, hoặc admin gọi |
+
 ## Cấu trúc
 
 ```
 Prompt/
+├── agents/                ← system prompt của từng agent
+├── brand/                 ← brand guide dùng chung
+├── inbox/                 ← tham khảo viral chờ xử lý
 ├── PIPELINE.md              ← trạng thái từng video (nguồn sự thật duy nhất)
 ├── CHATGPT_INSTRUCTIONS.md  ← lệnh cố định dán vào ChatGPT
 ├── briefs/                  ← phân tích video viral + hướng content
