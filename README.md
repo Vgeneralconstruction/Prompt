@@ -17,13 +17,15 @@ ChatGPT chỉ cần quyền **đọc** repo `Prompt`.
 
 | # | Agent | File | Chạy khi |
 |---|---|---|---|
-| 01 | Planner — kịch bản, kế hoạch, phân việc | `agents/01-planner.md` | Thứ Hai + thứ Năm 08:50 KST, hoặc admin gọi |
+| 00 | Admin — nhận video viral, phân tích, tạo FORMAT mới | `agents/00-admin.md` | Khi Huynh nhắn |
+| 01 | Planner — xoay vòng FORMAT, viết kịch bản + prompt, kế hoạch tuần | `agents/01-planner.md` | Thứ Hai + thứ Năm 08:50 KST, hoặc admin gọi |
 
 ## Cấu trúc
 
 ```
 Prompt/
-├── agents/                ← system prompt của từng agent
+├── agents/                ← system prompt của từng agent (00 admin, 01 planner)
+├── formats/               ← thư viện kiểu video học từ video viral
 ├── brand/                 ← brand guide dùng chung
 ├── inbox/                 ← tham khảo viral chờ xử lý
 ├── PIPELINE.md              ← trạng thái từng video (nguồn sự thật duy nhất)

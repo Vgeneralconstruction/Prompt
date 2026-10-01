@@ -30,3 +30,4 @@ Status: `IDEA` → `PROMPTS_READY` → `IMAGES_READY` → `IN_REVIEW` → `APPRO
 
 - 2026-10-01: Chọn GitHub làm kho trung gian (repo `Prompt` + `Audio-assets`). Session chat Claude trong Project "SOCIAL MEDIA" là admin.
 - 2026-10-01: Agent 01 tạo W40-01/02/03 từ format nền vì inbox trống và chưa có báo cáo tuần.
+- 2026-10-01: Chuyển sang mô hình Format Library — mỗi video viral Huynh gửi được admin học thành 1 FORMAT; Agent 01 xoay vòng các FORMAT. Nhạc: dùng bản royalty-free cùng BPM (mặc định) hoặc Huynh tự gắn nhạc trending trong app (chế độ in-app).
