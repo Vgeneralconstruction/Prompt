@@ -4,6 +4,22 @@ Admin cập nhật file này mỗi khi status đổi. Scheduled task đọc file
 
 Status: `IDEA` → `PROMPTS_READY` → `IMAGES_READY` → `IN_REVIEW` → `APPROVED` / `REVISE` → `SCHEDULED` → `PUBLISHED`
 
+## Kế hoạch tuần 40 (lập 2026-10-01 — lần chạy đầu, tuần bắt đầu muộn nên lịch kéo sang đầu W41)
+
+**3 video dự kiến đăng** (giờ Portland; điều kiện: ảnh xong + Huynh duyệt):
+| Ngày gợi ý | Video | Lý do thứ tự |
+|---|---|---|
+| Thứ Bảy 2026-10-03 | VGC-2026-W40-01 — Before→After phòng khách split-level | Format dễ viral nhất, mở kênh bằng "wow" |
+| Thứ Hai 2026-10-05 | VGC-2026-W40-03 — Mặt tiền craftsman glow-up | Đổi từ nội thất sang ngoại thất, dùng màu brand |
+| Thứ Tư 2026-10-07 | VGC-2026-W40-02 — Chống thấm vách tắm (Mistake vs Right) | Nội dung giáo dục, đo lượt save |
+
+**Thử nghiệm mới:** format nền #2 "Kitchen idea for 1960s ranch" — 1 bếp cũ → 3 phương án phong cách (PNW warm modern / mid-century / classic white), hỏi người xem chọn A/B/C để kéo comment. Agent 01 sẽ viết khi 1 video trên chuyển sang đăng.
+
+**Việc Huynh cần làm:**
+- Tạo ảnh bằng ChatGPT cho W40-01 (ưu tiên, trước thứ Sáu 10/02), W40-03, W40-02 theo `CHATGPT_INSTRUCTIONS.md`; upload vào `Audio-assets/images/<ID>/`; nhắn "ảnh xong <ID>".
+- Thêm 2–3 bản nhạc royalty-free vào `Audio-assets/audio/` (cần mood upbeat ×2, calm ×1) — hiện folder đang trống.
+- Gửi video viral tham khảo vào chat admin để inbox có nguồn cho tuần sau.
+
 | Video ID | Hướng content | Status | Kênh | Ngày đăng | Ghi chú |
 |---|---|---|---|---|---|
 | VGC-2026-W40-01 | Before→After: phòng khách split-level 1970s ("Same room. Different story.") | PROMPTS_READY | FB/IG/TikTok | | Nguồn: format nền #1 (inbox trống). 7 ảnh, ~20s, upbeat |
