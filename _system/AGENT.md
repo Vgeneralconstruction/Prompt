@@ -79,6 +79,7 @@ Tạo `meta/MM-DD-YYYY - Phien N.json` (cùng tên với file prompt, đuôi .js
     {"image": "01", "scene": 1, "role": "hook", "note": "mô tả ngắn ảnh này"},
     {"image": "02", "scene": 2, "role": "...", "note": "..."}
   ],
+  // nếu cảnh cần text overlay gọi tên thứ trong ảnh (vd tên màu, tên vật liệu), thêm "labels": ["..."] vào ảnh đó
   "idea": "tóm tắt ý tưởng 1 câu (tiếng Việt)",
   "idea_en": "1-sentence idea in English (dùng cho caption)"
 }
