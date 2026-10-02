@@ -60,10 +60,14 @@ Cần nắm 5 thứ:
 
 ### 6. Ghi file prompt
 Theo mẫu `_system/prompt-file-template.md`.
+- File **chỉ nói về ảnh**, vì ChatGPT chỉ tạo ảnh. Không ghi tên VF, audio, text overlay, caption, hashtag hay ghi chú edit.
+- Nội dung file dán thẳng vào ChatGPT được ngay, không cần sửa.
 
 ### 7. Ghi log
 Thêm 1 dòng vào cuối `_system/ideas-log.md`:
-`| MM-DD-YYYY | N | VF-xxx | không gian | loại nhà | bộ phong cách/chủ đề | góc máy | tóm tắt 1 câu |`
+`| MM-DD-YYYY | N | VF-xxx | Audio-assets/VF-xxx.mp3 | số ảnh | không gian | loại nhà | bộ phong cách/chủ đề | góc máy | tóm tắt 1 câu |`
+
+Log là nơi duy nhất ghi phiên nào dùng VF và audio nào, để bước edit tra cứu.
 
 ### 8. Commit + push
 - `git pull --rebase` trước khi push.
@@ -77,4 +81,5 @@ Một tin nhắn ngắn bằng **tiếng Việt**: tên file, VF đã chọn, ý
 - [ ] Scene lock được lặp lại nguyên văn trong mọi prompt cần cùng góc máy hoặc không gian.
 - [ ] Ý tưởng khác log ở ít nhất 2 trục, không trùng tổ hợp (không gian + loại nhà) với cùng VF.
 - [ ] Không có chữ, logo, người trong prompt (trừ khi cần).
-- [ ] Đường dẫn audio đúng `Audio-assets/VF-xxx.mp3`.
+- [ ] File prompt không có thông tin ngoài ảnh (không VF, audio, caption, edit).
+- [ ] Dòng log có đúng VF, đường dẫn audio và số ảnh.
