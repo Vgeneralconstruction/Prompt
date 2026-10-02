@@ -64,6 +64,26 @@ Theo mẫu `_system/prompt-file-template.md`.
 - ChatGPT **tự đọc file từ GitHub** rồi làm theo, nên dòng đầu file phải là lệnh rõ ràng cho ChatGPT, và file phải tự đủ nghĩa, không cần người giải thích thêm.
 
 
+### 6c. Ghi file meta (BẮT BUỘC, để task edit biết dựng theo kiểu nào)
+Tạo `meta/MM-DD-YYYY - Phien N.json` (cùng tên với file prompt, đuôi .json):
+```json
+{
+  "date": "MM-DD-YYYY",
+  "session": N,
+  "prompt_file": "prompts/MM-DD-YYYY - Phien N.md",
+  "vf_id": "VF-xxx",
+  "spec": "Library/formats/VF-xxx.md",
+  "audio": "Audio-assets/VF-xxx.mp3",
+  "image_count": N,
+  "images": [
+    {"image": "01", "scene": 1, "role": "hook", "note": "mô tả ngắn ảnh này"},
+    {"image": "02", "scene": 2, "role": "...", "note": "..."}
+  ],
+  "idea": "tóm tắt ý tưởng 1 câu (tiếng Việt)",
+  "idea_en": "1-sentence idea in English (dùng cho caption)"
+}
+```
+
 ### 7. Ghi log
 Thêm 1 dòng vào cuối `_system/ideas-log.md`:
 `| MM-DD-YYYY | N | VF-xxx | Audio-assets/VF-xxx.mp3 | số ảnh | không gian | loại nhà | bộ phong cách/chủ đề | góc máy | tóm tắt 1 câu |`
@@ -84,3 +104,4 @@ Một tin nhắn ngắn bằng **tiếng Việt**: tên file, VF đã chọn, ý
 - [ ] Không có chữ, logo, người trong prompt (trừ khi cần).
 - [ ] File prompt không có thông tin ngoài ảnh (không VF, audio, caption, edit).
 - [ ] Dòng log có đúng VF, đường dẫn audio và số ảnh.
+- [ ] File `meta/MM-DD-YYYY - Phien N.json` có đúng `vf_id`, `audio`, `image_count`, và map ảnh → cảnh.
