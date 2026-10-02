@@ -61,7 +61,12 @@ Cần nắm 5 thứ:
 ### 6. Ghi file prompt
 Theo mẫu `_system/prompt-file-template.md`.
 - File **chỉ nói về ảnh**, vì ChatGPT chỉ tạo ảnh. Không ghi tên VF, audio, text overlay, caption, hashtag hay ghi chú edit.
-- Nội dung file dán thẳng vào ChatGPT được ngay, không cần sửa.
+- ChatGPT **tự đọc file từ GitHub** rồi làm theo, nên dòng đầu file phải là lệnh rõ ràng cho ChatGPT, và file phải tự đủ nghĩa, không cần người giải thích thêm.
+
+### 6b. Cập nhật con trỏ LATEST
+Ghi đè `prompts/LATEST.md` với đúng 1 dòng là đường dẫn file vừa tạo, ví dụ:
+`prompts/10-03-2026 - Phien 1.md`
+ChatGPT đọc file này trước để biết file prompt mới nhất.
 
 ### 7. Ghi log
 Thêm 1 dòng vào cuối `_system/ideas-log.md`:
@@ -81,5 +86,6 @@ Một tin nhắn ngắn bằng **tiếng Việt**: tên file, VF đã chọn, ý
 - [ ] Scene lock được lặp lại nguyên văn trong mọi prompt cần cùng góc máy hoặc không gian.
 - [ ] Ý tưởng khác log ở ít nhất 2 trục, không trùng tổ hợp (không gian + loại nhà) với cùng VF.
 - [ ] Không có chữ, logo, người trong prompt (trừ khi cần).
+- [ ] `prompts/LATEST.md` trỏ đúng file vừa tạo.
 - [ ] File prompt không có thông tin ngoài ảnh (không VF, audio, caption, edit).
 - [ ] Dòng log có đúng VF, đường dẫn audio và số ảnh.
