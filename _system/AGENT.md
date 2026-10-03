@@ -46,7 +46,7 @@ Cần nắm 5 thứ:
   - cùng một căn phòng, cùng góc máy, cùng ống kính, cùng bố cục, cùng vị trí cửa sổ và cửa ra vào;
   - chỉ khác phong cách.
 
-  Phần cố định ghi trong **Scene lock** và lặp lại nguyên văn trong từng prompt.
+  Phần cố định ghi **một lần** trong khối LOCK ở đầu file (ví dụ SWATCH LOCK, KITCHEN LOCK). **Không chép lại LOCK vào từng ảnh.** Mỗi prompt ảnh chỉ ghi phần khác biệt.
 - **Before/after:** cùng góc máy và kiến trúc; phần "before" phải cũ kỹ một cách thực tế, không đổ nát.
 - Prompt viết bằng **tiếng Anh**, photorealistic, như ảnh chụp thật bằng máy ảnh. Mỗi prompt ghi rõ:
   - không gian và kiến trúc
@@ -57,6 +57,7 @@ Cần nắm 5 thứ:
 - **Không có chữ, logo, watermark, người** trong ảnh, trừ khi cảnh đó cần.
 - Nếu spec có text overlay đặt ở một vùng nào đó, prompt phải chừa vùng đó thoáng, ví dụ "keep the upper third uncluttered".
 - Ảnh cùng một video phải cùng tông ánh sáng và cùng chất ảnh, để khi cắt ghép không bị lệch.
+- **Giới hạn độ dài (bắt buộc):** mỗi khối LOCK ≤ 120 từ, mỗi prompt ảnh ≤ 60 từ, cả file ≤ 900 từ. File dài làm ChatGPT hết giới hạn phiên giữa chừng.
 
 ### 6. Ghi file prompt
 Theo mẫu `_system/prompt-file-template.md`.
@@ -100,7 +101,8 @@ Một tin nhắn ngắn bằng **tiếng Việt**: tên file, VF đã chọn, ý
 
 ## Tự kiểm trước khi push
 - [ ] Số ảnh khớp số cảnh cần hình trong spec.
-- [ ] Scene lock được lặp lại nguyên văn trong mọi prompt cần cùng góc máy hoặc không gian.
+- [ ] LOCK chỉ xuất hiện một lần ở đầu file, không chép vào từng ảnh.
+- [ ] Đếm từ bằng `wc -w`: cả file ≤ 900 từ.
 - [ ] Ý tưởng khác log ở ít nhất 2 trục, không trùng tổ hợp (không gian + loại nhà) với cùng VF.
 - [ ] Không có chữ, logo, người trong prompt (trừ khi cần).
 - [ ] File prompt không có thông tin ngoài ảnh (không VF, audio, caption, edit).
