@@ -13,7 +13,7 @@
  */
 
 const CONFIG = {
-  FOLDER_ID: '1k2LDLx2TGiRRZ85ftv1vfQ1VY85vMnEr',
+  FOLDER_ID: '1-xxZcdmJLTo_AT94dRWJAsVFs4W26W5z',
   OWNER: 'Vgeneralconstruction',
   REPO: 'Image-Assets',
   BRANCH: 'main',
