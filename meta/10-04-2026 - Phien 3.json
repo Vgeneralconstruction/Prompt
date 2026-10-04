@@ -1,0 +1,93 @@
+{
+  "date": "10-04-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-04-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch A",
+      "note": "Walnut / Fern Green",
+      "labels": [
+        "WALNUT",
+        "FERN GREEN"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal A",
+      "note": "tủ âm tường gỗ óc chó + tường xanh dương xỉ, chính diện từ cửa vào"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch B",
+      "note": "White Oak / Slate Blue",
+      "labels": [
+        "WHITE OAK",
+        "SLATE BLUE"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal B",
+      "note": "tủ âm tường white oak + tường xanh xám slate, chéo từ góc ghế đọc sách"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch C",
+      "note": "Ebonized Ash / Clay Pink",
+      "labels": [
+        "EBONIZED ASH",
+        "CLAY PINK"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal C",
+      "note": "tủ âm tường ash nhuộm đen + tường hồng đất, góc thấp dọc mặt bàn nhìn ra cửa kính"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch D",
+      "note": "Birch Plywood / Ochre",
+      "labels": [
+        "BIRCH PLYWOOD",
+        "OCHRE"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal D",
+      "note": "tủ âm tường ván ép birch + tường vàng ochre, từ sau ghế bàn nhìn ra cửa kính và vườn"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch E",
+      "note": "Douglas Fir / Fog Grey",
+      "labels": [
+        "DOUGLAS FIR",
+        "FOG GREY"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal E",
+      "note": "tủ âm tường gỗ Douglas fir + tường xám sương, toàn cảnh từ ngoài cửa kính nhìn vào"
+    }
+  ],
+  "idea": "5 cặp gỗ tủ âm tường + màu sơn tường cho văn phòng tại gia trong ADU sân sau xây mới ở Portland, chiều mưa có đèn ấm",
+  "idea_en": "5 built-in wood + wall paint pairs for a home office inside a new backyard ADU in Portland, rainy afternoon with warm lamp light"
+}
