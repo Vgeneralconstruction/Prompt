@@ -1,0 +1,93 @@
+{
+  "date": "10-05-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-05-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch A",
+      "note": "Eucalyptus Green / White Zellige",
+      "labels": [
+        "EUCALYPTUS GREEN",
+        "WHITE ZELLIGE"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal A",
+      "note": "phòng giặt tủ xanh eucalyptus + gạch zellige trắng, chính diện từ cửa phòng"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch B",
+      "note": "Denim Blue / Speckled Terracotta",
+      "labels": [
+        "DENIM BLUE",
+        "SPECKLED TERRACOTTA"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal B",
+      "note": "phòng giặt tủ xanh denim + gạch terracotta lốm đốm, chéo từ góc cửa sổ, bồn rửa tiền cảnh"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch C",
+      "note": "Butter Yellow / Sage Penny Tile",
+      "labels": [
+        "BUTTER YELLOW",
+        "SAGE PENNY TILE"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal C",
+      "note": "phòng giặt tủ vàng bơ + gạch penny xanh sage, góc thấp dọc mặt quầy gấp đồ"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch D",
+      "note": "Deep Burgundy / Cream Fish Scale",
+      "labels": [
+        "DEEP BURGUNDY",
+        "CREAM FISH SCALE"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal D",
+      "note": "phòng giặt tủ đỏ burgundy + gạch vảy cá kem, cận từ cạnh máy sấy, tủ trên mở"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch E",
+      "note": "Warm Greige / Black Picket Tile",
+      "labels": [
+        "WARM GREIGE",
+        "BLACK PICKET TILE"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal E",
+      "note": "phòng giặt tủ greige ấm + gạch picket đen, toàn cảnh từ hành lang qua cửa"
+    }
+  ],
+  "idea": "5 cặp màu sơn tủ + gạch ốp backsplash cho phòng giặt tầng trên nhà suburban 2000s ở Portland, sáng xuân có nắng hửng sau mưa",
+  "idea_en": "5 cabinet paint + backsplash tile pairs for the upstairs laundry room of a 2000s Portland-area suburban home, on a bright spring morning after rain"
+}
