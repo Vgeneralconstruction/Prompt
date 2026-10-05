@@ -34,11 +34,11 @@ function syncImages() {
   if (!token) throw new Error('Thiếu GITHUB_TOKEN trong Script Properties');
 
   const synced = JSON.parse(props.getProperty('SYNCED_IDS') || '{}');
-  const files = DriveApp.getFolderById(CONFIG.FOLDER_ID).getFiles();
+  const files = listImagesRecursive(DriveApp.getFolderById(CONFIG.FOLDER_ID));
   let done = 0;
 
-  while (files.hasNext() && done < CONFIG.MAX_PER_RUN) {
-    const f = files.next();
+  for (const f of files) {
+    if (done >= CONFIG.MAX_PER_RUN) break;
     if (synced[f.getId()]) continue;
     if (!/^image\//.test(f.getMimeType())) continue;
 
@@ -54,6 +54,16 @@ function syncImages() {
     }
   }
   console.log(`Xong, đẩy ${done} ảnh.`);
+}
+
+// Quét folder gốc và mọi thư mục con (ảnh có thể nằm trong "10-04-2026 (Phien 3)/")
+function listImagesRecursive(folder, out) {
+  out = out || [];
+  const files = folder.getFiles();
+  while (files.hasNext()) out.push(files.next());
+  const subs = folder.getFolders();
+  while (subs.hasNext()) listImagesRecursive(subs.next(), out);
+  return out;
 }
 
 function targetPath(name) {
