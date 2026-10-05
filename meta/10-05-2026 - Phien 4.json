@@ -1,0 +1,93 @@
+{
+  "date": "10-05-2026",
+  "session": 4,
+  "prompt_file": "prompts/10-05-2026 - Phien 4.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch A",
+      "note": "Pine Green / Fern Botanical Wallpaper",
+      "labels": [
+        "PINE GREEN",
+        "FERN BOTANICAL WALLPAPER"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal A",
+      "note": "phòng ăn wainscot xanh thông + giấy dán tường dương xỉ, chính diện từ cửa bếp"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch B",
+      "note": "Smoky Plum / Ochre Floral Wallpaper",
+      "labels": [
+        "SMOKY PLUM",
+        "OCHRE FLORAL WALLPAPER"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal B",
+      "note": "phòng ăn wainscot tím khói + giấy hoa vàng ochre, chéo từ góc tủ chén, lưng ghế tiền cảnh"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch C",
+      "note": "Delft Blue / Blue Toile Wallpaper",
+      "labels": [
+        "DELFT BLUE",
+        "BLUE TOILE WALLPAPER"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal C",
+      "note": "phòng ăn wainscot xanh Delft + giấy toile xanh, góc thấp dọc mặt bàn nhìn về tủ chén"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch D",
+      "note": "Ochre Gold / Ticking Stripe Wallpaper",
+      "labels": [
+        "OCHRE GOLD",
+        "TICKING STRIPE WALLPAPER"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal D",
+      "note": "phòng ăn wainscot vàng ochre + giấy sọc ticking, từ cửa sổ nhìn lại tủ chén"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch E",
+      "note": "Chalk White / Charcoal Willow Wallpaper",
+      "labels": [
+        "CHALK WHITE",
+        "CHARCOAL WILLOW WALLPAPER"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal E",
+      "note": "phòng ăn wainscot trắng phấn + giấy cành liễu nền than, toàn cảnh qua vòm cửa phòng khách"
+    }
+  ],
+  "idea": "5 cặp màu sơn wainscot + giấy dán tường cho phòng ăn nhà cottage storybook 1930s ở Portland, trưa cuối thu âm u với đèn chùm ấm",
+  "idea_en": "5 wainscot paint + wallpaper pairs for the dining room of a 1930s Portland storybook cottage, on an overcast late-autumn midday"
+}
