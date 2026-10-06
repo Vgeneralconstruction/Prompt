@@ -1,0 +1,93 @@
+{
+  "date": "10-06-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-06-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch A",
+      "note": "Evergreen / Taj Mahal Quartzite",
+      "labels": [
+        "EVERGREEN",
+        "TAJ MAHAL QUARTZITE"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal A",
+      "note": "đảo bếp xanh rừng đậm + quartzite Taj Mahal, chính diện qua đảo bếp, 3 đèn thả giữa khung"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch B",
+      "note": "Cobalt Blue / Carrara Marble",
+      "labels": [
+        "COBALT BLUE",
+        "CARRARA MARBLE"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal B",
+      "note": "đảo bếp xanh cobalt + đá Carrara, chéo từ góc bàn ăn, cạnh waterfall hướng máy"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch C",
+      "note": "Cinnamon Clay / Pietra Grey",
+      "labels": [
+        "CINNAMON CLAY",
+        "PIETRA GREY"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal C",
+      "note": "đảo bếp đất nung quế + đá Pietra Grey, góc thấp ngang mặt đảo nhìn tới vòi"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch D",
+      "note": "Mustard Ochre / Absolute Black",
+      "labels": [
+        "MUSTARD OCHRE",
+        "ABSOLUTE BLACK"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal D",
+      "note": "đảo bếp vàng mù tạt + granite đen leathered, từ sau bồn rửa nhìn ra cửa kính ban công mưa"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch E",
+      "note": "Smoky Lavender / Calacatta Gold",
+      "labels": [
+        "SMOKY LAVENDER",
+        "CALACATTA GOLD"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal E",
+      "note": "đảo bếp tím oải hương khói + quartz Calacatta Gold, toàn cảnh từ chiếu nghỉ cầu thang nhìn xuống"
+    }
+  ],
+  "idea": "5 cặp màu sơn đảo bếp + đá mặt quầy cho bếp mở nhà townhouse hiện đại 2010s ở Portland, chạng vạng blue hour mưa với đèn thả ấm",
+  "idea_en": "5 island paint + countertop stone pairs for an open kitchen in a modern 2010s Portland townhouse, at rainy blue hour under warm pendant lights"
+}
