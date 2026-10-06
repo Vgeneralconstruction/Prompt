@@ -1,0 +1,93 @@
+{
+  "date": "10-06-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-06-2026 - Phien 2.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch A",
+      "note": "Nero Marquina / Deep Moss",
+      "labels": [
+        "NERO MARQUINA",
+        "DEEP MOSS"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal A",
+      "note": "powder room vanity đá Nero Marquina + tường xanh rêu đậm, chính diện vanity, gương + 2 đèn tường giữa khung"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch B",
+      "note": "Calacatta Viola / Pale Blush",
+      "labels": [
+        "CALACATTA VIOLA",
+        "PALE BLUSH"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal B",
+      "note": "powder room vanity Calacatta Viola + tường hồng phấn nhạt, chéo từ góc cửa, cửa sổ kính chì ở tường xa"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch C",
+      "note": "Verde Alpi / Warm Linen",
+      "labels": [
+        "VERDE ALPI",
+        "WARM LINEN"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal C",
+      "note": "powder room vanity Verde Alpi + tường be linen, góc thấp ngang mặt đá nhìn dọc tới vòi và bồn"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch D",
+      "note": "Honed Limestone / Burnt Sienna",
+      "labels": [
+        "HONED LIMESTONE",
+        "BURNT SIENNA"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal D",
+      "note": "powder room vanity limestone mài mờ + tường nâu đỏ đất nung, từ cạnh cửa sổ nhìn lại cửa gỗ fir"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch E",
+      "note": "Arabescato / Midnight Navy",
+      "labels": [
+        "ARABESCATO",
+        "MIDNIGHT NAVY"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal E",
+      "note": "powder room vanity Arabescato + tường xanh navy đêm, toàn cảnh từ hành lang qua cửa mở"
+    }
+  ],
+  "idea": "5 cặp đá mặt vanity + sơn tường limewash cho powder room dưới gầm cầu thang nhà Old Portland Colonial 1905, chiều đông mưa xám với đèn tường đồng ấm",
+  "idea_en": "5 vanity stone + limewash wall color pairs for an under-stair powder room in a 1905 Old Portland Colonial home, on a grey rainy winter afternoon with warm brass sconces"
+}
