@@ -82,6 +82,7 @@ Create `meta/MM-DD-YYYY - Phien N.json` (same name as the prompt file, with the 
     {"image": "02", "scene": 2, "role": "...", "note": "..."}
   ],
   // if a scene needs a text overlay naming something in the image (e.g. color name, material name), add "labels": ["..."] to that image
+  // add any other per-image data the spec asks for, e.g. VF-003 needs "mark": {"x": 0.52, "y": 0.58} (normalised position of the detail for the ✗/✓ mark), VF-006 pairs need "pair": 1
   "idea": "1-sentence idea in English",
   "idea_en": "1-sentence idea in English (used for the caption; same value as \"idea\")"
 }
