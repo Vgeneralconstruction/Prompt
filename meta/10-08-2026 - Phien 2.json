@@ -1,0 +1,120 @@
+{
+  "date": "10-08-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-08-2026 - Phien 2.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "title": {
+    "line1": "WARDROBE",
+    "line2": "BUILT-INS"
+  },
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "before 1",
+      "pair": 1,
+      "note": "taped drywall bedroom corner with raw arched opening, plywood subfloor, stepladder; overcast morning"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "reveal 1 + title / cover frame",
+      "pair": 1,
+      "note": "warm-white shaker wardrobe wall with backlit oak arch niche and stoneware vase"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "before 2",
+      "pair": 2,
+      "note": "frontal primed drywall wall, empty LED ceiling channel, OSB floor, work light; rainy evening"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "reveal 2",
+      "pair": 2,
+      "note": "full-width smoked walnut slab wardrobe with lit bronze-glass center bay"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "before 3",
+      "pair": 3,
+      "note": "low view: bare drywall chimney return with dangling pendant wire; midday overcast"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "reveal 3",
+      "pair": 3,
+      "note": "fluted white oak wardrobes around return, arched LED halo mirror, black globe pendant"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "before 4",
+      "pair": 4,
+      "note": "attic bedroom from stairs: drywall knee walls with framed openings, rain on skylight"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "reveal 4",
+      "pair": 4,
+      "note": "greige knee-wall built-ins with cane doors and reading nook under skylight"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "before 5 (longest)",
+      "pair": 5,
+      "note": "primed wall with raw-stud recess, bucket and mud pan; golden sun after rain"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "reveal 5 = climax (only coloured scheme)",
+      "pair": 5,
+      "note": "Douglas-fir-green lacquered wardrobe wall with lit pill-mirror vanity nook and dahlias"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "before 6",
+      "pair": 6,
+      "note": "wide view: drywall wall with framed alcove, rosin paper floor, sawhorse; blue hour"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "reveal 6 / landing",
+      "pair": 6,
+      "note": "mocha oak wardrobes with black bar handles flanking lit vanity alcove, burgundy pouf"
+    }
+  ],
+  "idea": "Six bare bedrooms mid-remodel in 1940s Portland cottages hard-cut into six finished built-in wardrobe walls (warm-white shaker, smoked walnut, fluted oak, attic knee-wall cane, Douglas-fir green on the climax, mocha oak).",
+  "idea_en": "Six bare bedrooms mid-remodel in 1940s Portland cottages hard-cut into six finished built-in wardrobe walls (warm-white shaker, smoked walnut, fluted oak, attic knee-wall cane, Douglas-fir green on the climax, mocha oak)."
+}
