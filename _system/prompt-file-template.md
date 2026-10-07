@@ -1,12 +1,12 @@
-Hướng dẫn cho ChatGPT: tạo lần lượt <N> ảnh theo các prompt "Image 01" đến "Image <N>" trong file này. Phần LOCK ở đầu file áp dụng cho mọi ảnh cùng loại: đọc LOCK một lần, không cần chép lại. Mỗi ảnh tạo riêng, tỉ lệ dọc 2:3 (1024x1536), photorealistic, không có chữ, logo hay watermark. Ghi số thứ tự dưới mỗi ảnh.
+Instructions for ChatGPT: generate <N> images one by one, following the prompts "Image 01" to "Image <N>" in this file. The LOCK block at the top applies to every image of its type: read the LOCK once, do not repeat it. Generate each image separately, vertical 2:3 (1024x1536), photorealistic, no text, logo, watermark or people. Write the image number under each image.
 
-<TÊN> LOCK (áp dụng cho ảnh <danh sách số>):
-<mô tả cố định, tiếng Anh, ≤ 120 từ: không gian, kiến trúc, góc máy, ống kính, ánh sáng>
+<NAME> LOCK (applies to images <list>):
+<fixed description, English, ≤ 120 words: space, architecture, camera angle, lens, lighting>
 
 ---
 
-Image 01 (<TÊN> LOCK):
-<chỉ phần khác biệt, tiếng Anh, ≤ 60 từ>
+Image 01 (<NAME> LOCK):
+<only what differs, English, ≤ 60 words>
 
-Image 02 (<TÊN> LOCK):
+Image 02 (<NAME> LOCK):
 <...>

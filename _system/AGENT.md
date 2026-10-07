@@ -48,7 +48,7 @@ Cần nắm 5 thứ:
 
   Phần cố định ghi **một lần** trong khối LOCK ở đầu file (ví dụ SWATCH LOCK, KITCHEN LOCK). **Không chép lại LOCK vào từng ảnh.** Mỗi prompt ảnh chỉ ghi phần khác biệt.
 - **Before/after:** cùng góc máy và kiến trúc; phần "before" phải cũ kỹ một cách thực tế, không đổ nát.
-- Prompt viết bằng **tiếng Anh**, photorealistic, như ảnh chụp thật bằng máy ảnh. Mỗi prompt ghi rõ:
+- **Toàn bộ file prompt viết bằng tiếng Anh** — dòng hướng dẫn cho ChatGPT ở đầu file, tên và nội dung các khối LOCK, chú thích "(applies to images …)", và từng prompt ảnh. Không có chữ tiếng Việt nào trong file prompt (tiếng Việt chỉ dùng trong meta JSON, ideas-log và tin nhắn báo cáo). Prompt photorealistic, như ảnh chụp thật bằng máy ảnh. Mỗi prompt ghi rõ:
   - không gian và kiến trúc
   - vật liệu
   - ánh sáng
@@ -106,5 +106,6 @@ Một tin nhắn ngắn bằng **tiếng Việt**: tên file, VF đã chọn, ý
 - [ ] Ý tưởng khác log ở ít nhất 2 trục, không trùng tổ hợp (không gian + loại nhà) với cùng VF.
 - [ ] Không có chữ, logo, người trong prompt (trừ khi cần).
 - [ ] File prompt không có thông tin ngoài ảnh (không VF, audio, caption, edit).
+- [ ] File prompt 100% tiếng Anh, kể cả dòng hướng dẫn đầu file và nhãn LOCK.
 - [ ] Dòng log có đúng VF, đường dẫn audio và số ảnh.
 - [ ] File `meta/MM-DD-YYYY - Phien N.json` có đúng `vf_id`, `audio`, `image_count`, và map ảnh → cảnh.
