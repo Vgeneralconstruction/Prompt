@@ -1,0 +1,93 @@
+{
+  "date": "10-07-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-07-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch A",
+      "note": "Charcoal Flake Epoxy / Signal Red",
+      "labels": [
+        "CHARCOAL FLAKE EPOXY",
+        "SIGNAL RED"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal A",
+      "note": "sàn epoxy hạt xám than + tủ đỏ, chính diện từ cửa garage mở"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch B",
+      "note": "Polished Concrete / Fir Green",
+      "labels": [
+        "POLISHED CONCRETE",
+        "FIR GREEN"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal B",
+      "note": "bê tông mài bóng + tủ xanh linh sam, chéo từ góc cửa vào nhà"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch C",
+      "note": "Rubber Tile / Tangerine",
+      "labels": [
+        "RUBBER TILE",
+        "TANGERINE"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal C",
+      "note": "sàn cao su đen + tủ cam, góc thấp sát sàn dọc dãy tủ"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch D",
+      "note": "Checker Tile / Marine Blue",
+      "labels": [
+        "CHECKER TILE",
+        "MARINE BLUE"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal D",
+      "note": "gạch caro đen trắng + tủ xanh dương đậm, từ cạnh bàn thợ nhìn ra cửa garage"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch E",
+      "note": "Tan Quartz Epoxy / Bone White",
+      "labels": [
+        "TAN QUARTZ EPOXY",
+        "BONE WHITE"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal E",
+      "note": "epoxy quartz be + tủ trắng ngà, toàn cảnh cao từ góc trần"
+    }
+  ],
+  "idea": "5 cặp lớp hoàn thiện sàn + màu sơn tủ cho garage đôi cải tạo thành xưởng/kho của nhà modern farmhouse 2020s gần Portland, chạng vạng mưa",
+  "idea_en": "5 garage floor finish + cabinet color pairs for a two-car garage turned workshop in a 2020s modern farmhouse near Portland, at rainy dusk"
+}
