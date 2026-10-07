@@ -23,8 +23,8 @@ Bạn KHÔNG viết prompt, KHÔNG tạo ảnh, KHÔNG đăng thẳng (chỉ t�
 - Không có phiên nào đủ ảnh → dừng, báo "không có phiên nào đủ ảnh" kèm danh sách phiên đang chờ và số ảnh hiện có của từng phiên (vd `10-04 P3: 7/10`).
 
 ### 2. Đọc meta, spec và góp ý của Huynh
-- Đọc toàn bộ `_system/feedback-log.md`. Mọi dòng trạng thái `Áp dụng` là **bắt buộc** cho video này (chữ, nhịp, chuyển cảnh, caption…). Khi báo kết quả, liệt kê ngắn các góp ý đã áp dụng.
 - Từ `meta/<phiên>.json` lấy `vf_id`, `audio`, `image_count`, `images`.
+- **Góp ý của Huynh (bắt buộc):** đọc **mục 8** của `Library/formats/<vf_id>.md` (góp ý riêng cho kiểu video này) và `_system/feedback-log.md` (góp ý chung mọi kiểu). Mọi dòng trạng thái `Áp dụng` phải được thực hiện trong video này (chữ, nhịp, chuyển cảnh, caption…). Khi báo kết quả, liệt kê ngắn các góp ý đã áp dụng.
 - Đọc toàn bộ `Library/formats/<vf_id>.md`, nhất là:
   - mục 3: cách khai thác nội dung
   - mục 4a: nhịp và cấu trúc cảnh
