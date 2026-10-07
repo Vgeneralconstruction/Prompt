@@ -54,7 +54,8 @@ Cần nắm 5 thứ:
   - ánh sáng
   - góc máy, độ cao máy, ống kính
   - khung **dọc 2:3**
-- **Không có chữ, logo, watermark, người** trong ảnh, trừ khi cảnh đó cần.
+- **No text, logo, watermark or people** in the images, **unless the format spec asks for it** (e.g. VF-001 §4c/§6: color names must appear as a real printed/embossed label on the swatch samples — then the prompt must state the exact name text and say "no other text").
+- **Richness rule (Huynh's feedback 2026-10-07, mandatory):** prompts must not be generic. Each space/reveal image needs (a) its own composition and a camera angle clearly different from the other images in the session, (b) one signature detail (a plant, a window view, a textile, hardware, a human-scale object), (c) a specific light moment (time of day, weather, light direction), (d) materials described with visible texture. Sample/swatch images must look like real showroom pieces with texture, not flat painted shapes. Before finishing, compare the prompts pairwise: if two images could look interchangeable, rewrite one. Read `_system/feedback-log.md` and section 8 of the chosen VF spec before writing; every `Apply` row is mandatory.
 - Nếu spec có text overlay đặt ở một vùng nào đó, prompt phải chừa vùng đó thoáng, ví dụ "keep the upper third uncluttered".
 - Ảnh cùng một video phải cùng tông ánh sáng và cùng chất ảnh, để khi cắt ghép không bị lệch.
 - **Giới hạn độ dài (bắt buộc):** mỗi khối LOCK ≤ 120 từ, mỗi prompt ảnh ≤ 60 từ, cả file ≤ 900 từ. File dài làm ChatGPT hết giới hạn phiên giữa chừng.
@@ -81,7 +82,7 @@ Tạo `meta/MM-DD-YYYY - Phien N.json` (cùng tên với file prompt, đuôi .js
     {"image": "02", "scene": 2, "role": "...", "note": "..."}
   ],
   // nếu cảnh cần text overlay gọi tên thứ trong ảnh (vd tên màu, tên vật liệu), thêm "labels": ["..."] vào ảnh đó
-  "idea": "tóm tắt ý tưởng 1 câu (tiếng Việt)",
+  "idea": "1-sentence idea in English",
   "idea_en": "1-sentence idea in English (dùng cho caption)"
 }
 ```

@@ -47,6 +47,7 @@ Tạo `plan.json` theo định dạng ghi ở đầu `Library/tools/render.py`.
   - Ảnh N gắn vào cảnh theo `images` trong meta.
   - Chuyển cảnh và chuyển động chọn từ các từ khóa có trong renderer, sao cho gần nhất với 4a/4b.
 - **Texts:** theo vai trò và thời điểm ở 4c, nhưng **viết lại bằng tiếng Anh cho nội dung VGC**. Không chép nguyên văn text của video gốc.
+  - If the spec says a text element is **baked into the AI image** (e.g. VF-001: color names on the swatches), do **not** render that text with `render.py`. Only render what the spec marks as rendered.
   - Tối đa khoảng 7 từ mỗi màn hình.
   - Tránh 12% dưới cùng và 8% bên phải khung hình (UI của app che).
 - Áp dụng đúng cách khai thác của mục 3: hook ở 0–2s, payoff đúng giây, CTA ở cuối.

@@ -8,3 +8,4 @@ Trạng thái: `Áp dụng` = mọi video sau phải theo · `Đã đưa vào sp
 
 | Ngày | Video | Góp ý (nguyên văn) | Quy tắc rút ra cho lần sau | Phạm vi | Trạng thái |
 |---|---|---|---|---|---|
+| 2026-10-07 | 10-05-2026-Phien-3.mp4 (VF-001) | "các ảnh tạo ra cũng nhìn đơn điệu và giống nhau quá, chắc do prompt ghi hơi đơn giản quá nên tạo ra các ảnh không có gì đặc biệt và bị giống nhau khá nhiều" (images look monotonous and too similar; prompts too simple) | Prompt Writer: every image prompt must be specific and distinctive — its own composition, a signature detail, a defined light moment, a clearly different camera angle from the other images in the session; materials described with real texture. No two images in a session may look interchangeable. | All formats (Prompt Writer) | Apply |
