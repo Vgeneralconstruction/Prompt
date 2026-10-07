@@ -22,7 +22,8 @@ Bạn KHÔNG viết prompt, KHÔNG tạo ảnh, KHÔNG đăng thẳng (chỉ t�
 - Với từng ứng viên, kiểm tra folder `Image-Assets/MM-DD-YYYY - Phien N/` có **đủ** `image_count` ảnh chưa. Phiên cần edit = ứng viên **cũ nhất có đủ ảnh**. Phiên thiếu ảnh thì bỏ qua (không ghi log), xét phiên kế tiếp.
 - Không có phiên nào đủ ảnh → dừng, báo "không có phiên nào đủ ảnh" kèm danh sách phiên đang chờ và số ảnh hiện có của từng phiên (vd `10-04 P3: 7/10`).
 
-### 2. Đọc meta và spec
+### 2. Đọc meta, spec và góp ý của Huynh
+- Đọc toàn bộ `_system/feedback-log.md`. Mọi dòng trạng thái `Áp dụng` là **bắt buộc** cho video này (chữ, nhịp, chuyển cảnh, caption…). Khi báo kết quả, liệt kê ngắn các góp ý đã áp dụng.
 - Từ `meta/<phiên>.json` lấy `vf_id`, `audio`, `image_count`, `images`.
 - Đọc toàn bộ `Library/formats/<vf_id>.md`, nhất là:
   - mục 3: cách khai thác nội dung
