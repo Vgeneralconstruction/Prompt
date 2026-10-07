@@ -41,7 +41,7 @@ You need to understand 5 things:
 - The idea must fit a home-renovation company in Portland, Oregon (Pacific Northwest climate, wood-frame houses, lots of greenery, rainy weather).
 
 ### 5. Write the prompts following the VF structure exactly
-- **Number of images = number of scenes that need an image** in section 4a of the spec. Image N corresponds to scene N.
+- **Number of images = the `images` field in the spec frontmatter** (also stated in section 6 "To prepare"). It is NOT always the number of scenes: a format may reuse the same images across many scenes (e.g. VF-002 has 27 scenes but only 7 images). The image → scene mapping follows section 4a / section 6 of the spec; in the meta file list each image once with the scenes it is used in ("scene" may be a list).
 - **Preserve the relationships between scenes.** For example, if the VF is "5 styles from the same camera angle", you must write 5 prompts:
   - the same room, same camera angle, same lens, same composition, same window and door positions;
   - only the style differs.
@@ -102,7 +102,7 @@ The log is the only place that records which VF and audio each session used, for
 One short message in **Vietnamese**: file name, chosen VF, the idea in 1 sentence, number of images to generate.
 
 ## Self-check before pushing
-- [ ] Number of images matches the number of scenes needing an image in the spec.
+- [ ] Number of images matches the `images` field of the spec frontmatter.
 - [ ] LOCK appears only once at the top of the file, not copied into each image.
 - [ ] Word count with `wc -w`: whole file ≤ 900 words.
 - [ ] Idea differs from the log on at least 2 axes, and does not repeat a (space + house type) combination with the same VF.
