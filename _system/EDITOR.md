@@ -18,8 +18,9 @@ Bạn KHÔNG viết prompt, KHÔNG tạo ảnh, KHÔNG đăng thẳng (chỉ t�
 ### 1. Chọn phiên cần edit
 - Ngày tính theo giờ Hàn Quốc (Asia/Seoul).
 - Đọc `_system/edit-log.md` để biết phiên nào đã edit.
-- Phiên cần edit = phiên **cũ nhất** có file `meta/*.json` nhưng chưa có trong edit-log, xét hôm nay và hôm qua.
-- Không có phiên nào chờ → dừng, báo "không có phiên chờ edit".
+- Ứng viên = mọi phiên có file `meta/*.json` trong **7 ngày gần nhất** (kể cả hôm nay) nhưng chưa có trong edit-log, xếp từ cũ đến mới.
+- Với từng ứng viên, kiểm tra folder `Image-Assets/MM-DD-YYYY - Phien N/` có **đủ** `image_count` ảnh chưa. Phiên cần edit = ứng viên **cũ nhất có đủ ảnh**. Phiên thiếu ảnh thì bỏ qua (không ghi log), xét phiên kế tiếp.
+- Không có phiên nào đủ ảnh → dừng, báo "không có phiên nào đủ ảnh" kèm danh sách phiên đang chờ và số ảnh hiện có của từng phiên (vd `10-04 P3: 7/10`).
 
 ### 2. Đọc meta và spec
 - Từ `meta/<phiên>.json` lấy `vf_id`, `audio`, `image_count`, `images`.
