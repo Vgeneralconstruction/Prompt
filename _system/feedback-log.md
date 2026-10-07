@@ -1,11 +1,11 @@
-# Feedback log — góp ý của Huynh sau mỗi video
+# Feedback log — Huynh's feedback after each video
 
-Mỗi lần Huynh góp ý về một video, admin ghi 1 dòng ở đây **nguyên văn** kèm quy tắc rút ra.
-Task Video Editor **phải đọc hết file này trước khi viết plan** và áp dụng mọi dòng có trạng thái `Áp dụng`.
-Không xoá dòng cũ. **Góp ý về một kiểu video cụ thể ghi ở mục 8 của spec `Library/formats/VF-xxx.md` (nơi chính).** File này chỉ giữ góp ý chung áp dụng cho mọi kiểu video.
+Each time Huynh gives feedback on a video, the admin writes 1 row here **verbatim** together with the rule derived from it.
+The Video Editor task **must read this entire file before writing the plan** and apply every row with status `Apply`.
+Do not delete old rows. **Feedback about a specific video format is recorded in section 8 of the spec `Library/formats/VF-xxx.md` (the primary place).** This file only keeps general feedback that applies to every video format.
 
-Trạng thái: `Áp dụng` = mọi video sau phải theo · `Đã đưa vào spec/EDITOR.md` = đã chuyển thành luật cố định · `Bỏ` = Huynh đổi ý.
+Status: `Apply` = every subsequent video must follow it · `Promoted to spec/EDITOR.md` = turned into a fixed rule · `Dropped` = Huynh changed his mind.
 
-| Ngày | Video | Góp ý (nguyên văn) | Quy tắc rút ra cho lần sau | Phạm vi | Trạng thái |
+| Date | Video | Feedback (verbatim) | Rule derived for next time | Scope | Status |
 |---|---|---|---|---|---|
 | 2026-10-07 | 10-05-2026-Phien-3.mp4 (VF-001) | "các ảnh tạo ra cũng nhìn đơn điệu và giống nhau quá, chắc do prompt ghi hơi đơn giản quá nên tạo ra các ảnh không có gì đặc biệt và bị giống nhau khá nhiều" (images look monotonous and too similar; prompts too simple) | Prompt Writer: every image prompt must be specific and distinctive — its own composition, a signature detail, a defined light moment, a clearly different camera angle from the other images in the session; materials described with real texture. No two images in a session may look interchangeable. | All formats (Prompt Writer) | Apply |

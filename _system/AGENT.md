@@ -1,73 +1,73 @@
-# Prompt Writer — hướng dẫn cho task hằng ngày
+# Prompt Writer — instructions for the daily task
 
-Bạn viết **file prompt tạo ảnh cho ChatGPT**. Mỗi phiên tạo 1 file, ứng với 1 video. Video sẽ được edit theo một kiểu video (VF) trong repo Library.
+You write **image-generation prompt files for ChatGPT**. Each session produces 1 file, corresponding to 1 video. The video will be edited according to a video format (VF) in the Library repo.
 
-Bạn KHÔNG tạo ảnh, KHÔNG edit video, KHÔNG đăng bài.
+You do NOT generate images, do NOT edit video, do NOT publish posts.
 
-## Repo
-- `Vgeneralconstruction/Library`: thư viện kiểu video. Đọc `README.md` (danh mục) và `formats/VF-*.md`.
-- `Vgeneralconstruction/Audio-assets`: audio `VF-*.mp3`. Chỉ kiểm tra file có tồn tại, không sửa.
-- `Vgeneralconstruction/Prompt` (repo này): nơi lưu file prompt và `_system/ideas-log.md`.
+## Repos
+- `Vgeneralconstruction/Library`: the video-format library. Read `README.md` (the catalog) and `formats/VF-*.md`.
+- `Vgeneralconstruction/Audio-assets`: audio `VF-*.mp3`. Only check that the file exists; do not modify.
+- `Vgeneralconstruction/Prompt` (this repo): where prompt files and `_system/ideas-log.md` are stored.
 
-## Các bước mỗi phiên
+## Steps for each session
 
-### 1. Xác định ngày và số phiên
-- Ngày tính theo giờ Hàn Quốc (Asia/Seoul): `MM-DD-YYYY`.
-- Số phiên = số file `MM-DD-YYYY - Phien *.md` của hôm nay đã có trong `prompts/` + 1.
-- Tên file: `prompts/MM-DD-YYYY - Phien N.md`, ví dụ `prompts/10-03-2026 - Phien 1.md`. **Giữ đúng định dạng này**, vì ChatGPT tự tìm file theo ngày và số phiên.
+### 1. Determine the date and session number
+- The date is in Korea time (Asia/Seoul): `MM-DD-YYYY`.
+- Session number = the number of today's `MM-DD-YYYY - Phien *.md` files already in `prompts/` + 1.
+- File name: `prompts/MM-DD-YYYY - Phien N.md`, e.g. `prompts/10-03-2026 - Phien 1.md` (Phien = session; this spelling is part of the file name and must not be changed). **Keep this exact format**, because ChatGPT locates the file by date and session number.
 
-### 2. Chọn ngẫu nhiên 1 kiểu video
-- Lấy danh sách VF có `status: active` trong `Library/formats/` mà có audio tương ứng `Audio-assets/VF-xxx.mp3`.
-- Chọn ngẫu nhiên bằng code, ví dụ `python3 -c "import random; print(random.choice([...]))"`.
-- Nếu có từ 2 VF trở lên, tránh trùng VF với phiên ngay trước đó (xem dòng cuối `ideas-log.md`).
-- **Nếu Library chưa có VF nào: dừng lại, không tạo file, báo "Library chưa có kiểu video nào".**
+### 2. Randomly pick 1 video format
+- Build the list of VFs with `status: active` in `Library/formats/` that have a matching audio file `Audio-assets/VF-xxx.mp3`.
+- Pick randomly with code, e.g. `python3 -c "import random; print(random.choice([...]))"`.
+- If there are 2 or more VFs, avoid the same VF as the immediately preceding session (see the last row of `ideas-log.md`).
+- **If the Library has no VF at all: stop, create no file, and report "Library has no video format yet".**
 
-### 3. Đọc kỹ spec của VF đã chọn
-Cần nắm 5 thứ:
-- **Mục 3, cách khai thác nội dung:** góc nội dung, hook, payoff.
-- **Mục 4a:** số cảnh, vai trò từng cảnh, mốc thời gian.
-- **Mục 4b:** kỹ thuật edit, để biết ảnh cần chuẩn bị thế nào cho edit được, ví dụ cùng góc máy, cùng bố cục, chừa chỗ cho text.
-- **Mục 6:** ý tưởng VGC gợi ý. Chỉ để tham khảo, không bắt buộc dùng.
-- **Quan hệ giữa các cảnh:** cùng góc máy? cùng không gian? chuỗi thời gian? so sánh?
+### 3. Read the chosen VF spec carefully
+You need to understand 5 things:
+- **Section 3, how the content is exploited:** content angle, hook, payoff.
+- **Section 4a:** number of scenes, the role of each scene, timestamps.
+- **Section 4b:** editing techniques, so you know how the images must be prepared to be editable, e.g. same camera angle, same composition, space left for text.
+- **Section 6:** suggested VGC ideas. For reference only, not mandatory.
+- **Relationships between scenes:** same camera angle? same space? time sequence? comparison?
 
-### 4. Nghĩ ra ý tưởng MỚI
-- Đọc toàn bộ `_system/ideas-log.md`.
-- Ý tưởng mới phải **khác mọi ý tưởng đã có** ở ít nhất 2 trong 4 trục:
-  - **Không gian:** loại phòng hoặc khu vực, như bếp, phòng tắm, phòng khách, phòng ngủ, basement, attic, garage, mặt tiền, sân sau, deck, lối vào, cầu thang, laundry, văn phòng thương mại, cửa hàng...
-  - **Loại nhà / đời nhà:** craftsman 1920s, bungalow, mid-century ranch, split-level 1970s, cape cod, victorian, townhouse, ADU, nhà mới 2000s, mặt bằng thương mại...
-  - **Bộ phong cách / chủ đề biến đổi:** nhóm style, vật liệu, bảng màu, mùa, thời điểm trong ngày...
-  - **Góc máy / bố cục chính.**
-- Trong cùng một VF, không được lặp lại tổ hợp (không gian + loại nhà) đã dùng với VF đó.
-- Ý tưởng phải hợp với một công ty cải tạo nhà ở Portland, Oregon (khí hậu Pacific Northwest, nhà gỗ, nhiều cây xanh, trời mưa).
+### 4. Come up with a NEW idea
+- Read the entire `_system/ideas-log.md`.
+- The new idea must **differ from every existing idea** on at least 2 of the 4 axes:
+  - **Space:** type of room or area, such as kitchen, bathroom, living room, bedroom, basement, attic, garage, facade, backyard, deck, entryway, staircase, laundry, commercial office, retail store...
+  - **House type / era:** 1920s craftsman, bungalow, mid-century ranch, 1970s split-level, cape cod, victorian, townhouse, ADU, new-build 2000s, commercial space...
+  - **Style set / transformation theme:** style group, materials, color palette, season, time of day...
+  - **Main camera angle / composition.**
+- Within the same VF, do not repeat a (space + house type) combination already used with that VF.
+- The idea must fit a home-renovation company in Portland, Oregon (Pacific Northwest climate, wood-frame houses, lots of greenery, rainy weather).
 
-### 5. Viết prompt theo đúng cấu trúc của VF
-- **Số ảnh = số cảnh cần hình** trong mục 4a của spec. Ảnh N ứng với cảnh N.
-- **Giữ đúng quan hệ giữa các cảnh.** Ví dụ VF là "5 phong cách cùng 1 góc máy" thì phải viết 5 prompt:
-  - cùng một căn phòng, cùng góc máy, cùng ống kính, cùng bố cục, cùng vị trí cửa sổ và cửa ra vào;
-  - chỉ khác phong cách.
+### 5. Write the prompts following the VF structure exactly
+- **Number of images = number of scenes that need an image** in section 4a of the spec. Image N corresponds to scene N.
+- **Preserve the relationships between scenes.** For example, if the VF is "5 styles from the same camera angle", you must write 5 prompts:
+  - the same room, same camera angle, same lens, same composition, same window and door positions;
+  - only the style differs.
 
-  Phần cố định ghi **một lần** trong khối LOCK ở đầu file (ví dụ SWATCH LOCK, KITCHEN LOCK). **Không chép lại LOCK vào từng ảnh.** Mỗi prompt ảnh chỉ ghi phần khác biệt.
-- **Before/after:** cùng góc máy và kiến trúc; phần "before" phải cũ kỹ một cách thực tế, không đổ nát.
-- **Toàn bộ file prompt viết bằng tiếng Anh** — dòng hướng dẫn cho ChatGPT ở đầu file, tên và nội dung các khối LOCK, chú thích "(applies to images …)", và từng prompt ảnh. Không có chữ tiếng Việt nào trong file prompt (tiếng Việt chỉ dùng trong meta JSON, ideas-log và tin nhắn báo cáo). Prompt photorealistic, như ảnh chụp thật bằng máy ảnh. Mỗi prompt ghi rõ:
-  - không gian và kiến trúc
-  - vật liệu
-  - ánh sáng
-  - góc máy, độ cao máy, ống kính
-  - khung **dọc 2:3**
+  The fixed part is written **once** in a LOCK block at the top of the file (e.g. SWATCH LOCK, KITCHEN LOCK). **Do not copy the LOCK into each image.** Each image prompt only states what differs.
+- **Before/after:** same camera angle and architecture; the "before" must be realistically dated, not derelict.
+- **The entire prompt file is written in English** — the instruction line for ChatGPT at the top of the file, the names and contents of the LOCK blocks, the "(applies to images …)" notes, and every image prompt. No Vietnamese text anywhere in the prompt file (Vietnamese is used only in the report message to Huynh). Prompts are photorealistic, like real photographs taken with a camera. Each prompt states clearly:
+  - space and architecture
+  - materials
+  - lighting
+  - camera angle, camera height, lens
+  - **vertical 2:3** frame
 - **No text, logo, watermark or people** in the images, **unless the format spec asks for it** (e.g. VF-001 §4c/§6: color names must appear as a real printed/embossed label on the swatch samples — then the prompt must state the exact name text and say "no other text").
 - **Richness rule (Huynh's feedback 2026-10-07, mandatory):** prompts must not be generic. Each space/reveal image needs (a) its own composition and a camera angle clearly different from the other images in the session, (b) one signature detail (a plant, a window view, a textile, hardware, a human-scale object), (c) a specific light moment (time of day, weather, light direction), (d) materials described with visible texture. Sample/swatch images must look like real showroom pieces with texture, not flat painted shapes. Before finishing, compare the prompts pairwise: if two images could look interchangeable, rewrite one. Read `_system/feedback-log.md` and section 8 of the chosen VF spec before writing; every `Apply` row is mandatory.
-- Nếu spec có text overlay đặt ở một vùng nào đó, prompt phải chừa vùng đó thoáng, ví dụ "keep the upper third uncluttered".
-- Ảnh cùng một video phải cùng tông ánh sáng và cùng chất ảnh, để khi cắt ghép không bị lệch.
-- **Giới hạn độ dài (bắt buộc):** mỗi khối LOCK ≤ 120 từ, mỗi prompt ảnh ≤ 60 từ, cả file ≤ 900 từ. File dài làm ChatGPT hết giới hạn phiên giữa chừng.
+- If the spec places a text overlay in a certain region, the prompt must keep that region clear, e.g. "keep the upper third uncluttered".
+- Images in the same video must share the same lighting tone and the same photographic look, so the cuts do not feel mismatched.
+- **Length limits (mandatory):** each LOCK block ≤ 120 words, each image prompt ≤ 60 words, the whole file ≤ 900 words. A long file makes ChatGPT run out of session limit midway.
 
-### 6. Ghi file prompt
-Theo mẫu `_system/prompt-file-template.md`.
-- File **chỉ nói về ảnh**, vì ChatGPT chỉ tạo ảnh. Không ghi tên VF, audio, text overlay, caption, hashtag hay ghi chú edit.
-- ChatGPT **tự đọc file từ GitHub** rồi làm theo, nên dòng đầu file phải là lệnh rõ ràng cho ChatGPT, và file phải tự đủ nghĩa, không cần người giải thích thêm.
+### 6. Write the prompt file
+Follow the template `_system/prompt-file-template.md`.
+- The file **is only about the images**, because ChatGPT only generates images. Do not include the VF name, audio, text overlay, caption, hashtags or editing notes.
+- ChatGPT **reads the file from GitHub by itself** and follows it, so the first line of the file must be a clear command for ChatGPT, and the file must be self-contained, needing no further explanation from a person.
 
 
-### 6c. Ghi file meta (BẮT BUỘC, để task edit biết dựng theo kiểu nào)
-Tạo `meta/MM-DD-YYYY - Phien N.json` (cùng tên với file prompt, đuôi .json):
+### 6c. Write the meta file (MANDATORY, so the edit task knows which format to build)
+Create `meta/MM-DD-YYYY - Phien N.json` (same name as the prompt file, with the .json extension):
 ```json
 {
   "date": "MM-DD-YYYY",
@@ -78,35 +78,36 @@ Tạo `meta/MM-DD-YYYY - Phien N.json` (cùng tên với file prompt, đuôi .js
   "audio": "Audio-assets/VF-xxx.mp3",
   "image_count": N,
   "images": [
-    {"image": "01", "scene": 1, "role": "hook", "note": "mô tả ngắn ảnh này"},
+    {"image": "01", "scene": 1, "role": "hook", "note": "short description of this image, in English"},
     {"image": "02", "scene": 2, "role": "...", "note": "..."}
   ],
-  // nếu cảnh cần text overlay gọi tên thứ trong ảnh (vd tên màu, tên vật liệu), thêm "labels": ["..."] vào ảnh đó
+  // if a scene needs a text overlay naming something in the image (e.g. color name, material name), add "labels": ["..."] to that image
   "idea": "1-sentence idea in English",
-  "idea_en": "1-sentence idea in English (dùng cho caption)"
+  "idea_en": "1-sentence idea in English (used for the caption; same value as \"idea\")"
 }
 ```
+All values in the meta JSON are written in English.
 
-### 7. Ghi log
-Thêm 1 dòng vào cuối `_system/ideas-log.md`:
-`| MM-DD-YYYY | N | VF-xxx | Audio-assets/VF-xxx.mp3 | số ảnh | không gian | loại nhà | bộ phong cách/chủ đề | góc máy | tóm tắt 1 câu |`
+### 7. Write the log
+Append 1 row to the end of `_system/ideas-log.md` (in English):
+`| MM-DD-YYYY | N | VF-xxx | Audio-assets/VF-xxx.mp3 | image count | space | house type | style set/theme | camera angle | 1-sentence summary |`
 
-Log là nơi duy nhất ghi phiên nào dùng VF và audio nào, để bước edit tra cứu.
+The log is the only place that records which VF and audio each session used, for the edit step to look up.
 
 ### 8. Commit + push
-- `git pull --rebase` trước khi push.
+- `git pull --rebase` before pushing.
 - Commit message: `Prompt MM-DD-YYYY Phien N (VF-xxx)`.
 
-### 9. Báo kết quả
-Một tin nhắn ngắn bằng **tiếng Việt**: tên file, VF đã chọn, ý tưởng trong 1 câu, số ảnh cần tạo.
+### 9. Report the result
+One short message in **Vietnamese**: file name, chosen VF, the idea in 1 sentence, number of images to generate.
 
-## Tự kiểm trước khi push
-- [ ] Số ảnh khớp số cảnh cần hình trong spec.
-- [ ] LOCK chỉ xuất hiện một lần ở đầu file, không chép vào từng ảnh.
-- [ ] Đếm từ bằng `wc -w`: cả file ≤ 900 từ.
-- [ ] Ý tưởng khác log ở ít nhất 2 trục, không trùng tổ hợp (không gian + loại nhà) với cùng VF.
-- [ ] Không có chữ, logo, người trong prompt (trừ khi cần).
-- [ ] File prompt không có thông tin ngoài ảnh (không VF, audio, caption, edit).
-- [ ] File prompt 100% tiếng Anh, kể cả dòng hướng dẫn đầu file và nhãn LOCK.
-- [ ] Dòng log có đúng VF, đường dẫn audio và số ảnh.
-- [ ] File `meta/MM-DD-YYYY - Phien N.json` có đúng `vf_id`, `audio`, `image_count`, và map ảnh → cảnh.
+## Self-check before pushing
+- [ ] Number of images matches the number of scenes needing an image in the spec.
+- [ ] LOCK appears only once at the top of the file, not copied into each image.
+- [ ] Word count with `wc -w`: whole file ≤ 900 words.
+- [ ] Idea differs from the log on at least 2 axes, and does not repeat a (space + house type) combination with the same VF.
+- [ ] No text, logo, or people in the prompts (unless required).
+- [ ] The prompt file contains no information beyond the images (no VF, audio, caption, editing).
+- [ ] The prompt file is 100% English, including the instruction line at the top and the LOCK labels.
+- [ ] The log row has the correct VF, audio path and image count.
+- [ ] The file `meta/MM-DD-YYYY - Phien N.json` has the correct `vf_id`, `audio`, `image_count`, and image → scene map.

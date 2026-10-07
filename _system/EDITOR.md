@@ -1,114 +1,114 @@
-# Video Editor — hướng dẫn cho task edit hằng ngày
+# Video Editor — instructions for the daily edit task
 
-Mỗi phiên edit dựng **1 video** từ ảnh ChatGPT đã tạo cho một phiên prompt, rồi để video lên **Metricool dạng nháp (draft)** kèm caption và hashtag để Huynh duyệt.
+Each edit session builds **1 video** from the images ChatGPT generated for one prompt session, then places the video on **Metricool as a draft** with a caption and hashtags for Huynh to review.
 
-Bạn KHÔNG viết prompt, KHÔNG tạo ảnh, KHÔNG đăng thẳng (chỉ tạo draft).
+You do NOT write prompts, do NOT generate images, do NOT publish directly (drafts only).
 
-## Repo
-| Repo | Dùng để |
+## Repos
+| Repo | Used for |
 |---|---|
-| `Vgeneralconstruction/Prompt` | `meta/<phiên>.json` (VF, audio, map ảnh → cảnh), `_system/edit-log.md` |
-| `Vgeneralconstruction/Image-Assets` | ảnh của phiên: folder `MM-DD-YYYY - Phien N/` gồm `01.png`, `02.png`... |
+| `Vgeneralconstruction/Prompt` | `meta/<session>.json` (VF, audio, image → scene map), `_system/edit-log.md` |
+| `Vgeneralconstruction/Image-Assets` | the session's images: folder `MM-DD-YYYY - Phien N/` containing `01.png`, `02.png`... (Phien = session; this spelling is part of the file name and must not be changed) |
 | `Vgeneralconstruction/Audio-assets` | `VF-xxx.mp3` |
-| `Vgeneralconstruction/Library` | `formats/VF-xxx.md` (cách edit), `tools/render.py` (công cụ dựng) |
-| `Vgeneralconstruction/Video-Output` (**public**) | nơi đặt file mp4 để Metricool lấy được qua link |
+| `Vgeneralconstruction/Library` | `formats/VF-xxx.md` (how to edit), `tools/render.py` (rendering tool) |
+| `Vgeneralconstruction/Video-Output` (**public**) | where the mp4 is placed so Metricool can fetch it via link |
 
-## Các bước
+## Steps
 
-### 1. Chọn phiên cần edit
-- Ngày tính theo giờ Hàn Quốc (Asia/Seoul).
-- Đọc `_system/edit-log.md` để biết phiên nào đã edit.
-- Ứng viên = mọi phiên có file `meta/*.json` trong **7 ngày gần nhất** (kể cả hôm nay) nhưng chưa có trong edit-log, xếp từ cũ đến mới.
-- Với từng ứng viên, kiểm tra folder `Image-Assets/MM-DD-YYYY - Phien N/` có **đủ** `image_count` ảnh chưa. Phiên cần edit = ứng viên **cũ nhất có đủ ảnh**. Phiên thiếu ảnh thì bỏ qua (không ghi log), xét phiên kế tiếp.
-- Không có phiên nào đủ ảnh → dừng, báo "không có phiên nào đủ ảnh" kèm danh sách phiên đang chờ và số ảnh hiện có của từng phiên (vd `10-04 P3: 7/10`).
+### 1. Choose the session to edit
+- The date is in Korea time (Asia/Seoul).
+- Read `_system/edit-log.md` to know which sessions have already been edited.
+- Candidates = every session with a `meta/*.json` file in the **last 7 days** (including today) that is not yet in the edit-log, ordered oldest to newest.
+- For each candidate, check whether the folder `Image-Assets/MM-DD-YYYY - Phien N/` has **all** `image_count` images. The session to edit = the **oldest candidate with all images**. Skip sessions with missing images (do not log them) and consider the next one.
+- If no session has all its images → stop and report "no session has all its images", with the list of waiting sessions and the current image count of each (e.g. `10-04 P3: 7/10`).
 
-### 2. Đọc meta, spec và góp ý của Huynh
-- Từ `meta/<phiên>.json` lấy `vf_id`, `audio`, `image_count`, `images`.
-- **Góp ý của Huynh (bắt buộc):** đọc **mục 8** của `Library/formats/<vf_id>.md` (góp ý riêng cho kiểu video này) và `_system/feedback-log.md` (góp ý chung mọi kiểu). Mọi dòng trạng thái `Áp dụng` phải được thực hiện trong video này (chữ, nhịp, chuyển cảnh, caption…). Khi báo kết quả, liệt kê ngắn các góp ý đã áp dụng.
-- Đọc toàn bộ `Library/formats/<vf_id>.md`, nhất là:
-  - mục 3: cách khai thác nội dung
-  - mục 4a: nhịp và cấu trúc cảnh
-  - mục 4b: kỹ thuật edit
-  - mục 4c: text overlay
-  - mục 5: audio, drop
+### 2. Read the meta, the spec and Huynh's feedback
+- From `meta/<session>.json` take `vf_id`, `audio`, `image_count`, `images`.
+- **Huynh's feedback (mandatory):** read **section 8** of `Library/formats/<vf_id>.md` (feedback specific to this video format) and `_system/feedback-log.md` (general feedback for all formats). Every row with status `Apply` must be implemented in this video (text, pacing, transitions, caption…). When reporting the result, briefly list the feedback items applied.
+- Read the entire `Library/formats/<vf_id>.md`, especially:
+  - section 3: how the content is exploited
+  - section 4a: pacing and scene structure
+  - section 4b: editing techniques
+  - section 4c: text overlay
+  - section 5: audio, drop
 
-### 3. Lấy ảnh và audio
-- Ảnh: folder `Image-Assets/MM-DD-YYYY - Phien N/`. Khi so tên folder, bỏ qua khác biệt hoa/thường và dấu cách.
-  - Ảnh xếp theo số thứ tự trong tên file.
-  - Thiếu folder, hoặc ít ảnh hơn `image_count` → **dừng**, không ghi edit-log (để phiên edit sau thử lại), báo "phiên X chưa đủ ảnh (có a/b)".
-- **Xem từng ảnh** (dùng Read). Nếu ảnh hỏng, sai thứ tự hoặc có chữ hay watermark thì ghi chú lại; vẫn dựng nếu dùng được.
-- Audio: `Audio-assets/<vf_id>.mp3`. Kiểm tra thời lượng bằng ffprobe.
+### 3. Get the images and audio
+- Images: folder `Image-Assets/MM-DD-YYYY - Phien N/`. When matching the folder name, ignore differences in case and spacing.
+  - Images are ordered by the number in the file name.
+  - Folder missing, or fewer images than `image_count` → **stop**, do not write to edit-log (so the next edit session retries), report "session X does not have all images yet (has a/b)".
+- **Look at every image** (use Read). If an image is broken, out of order, or contains text or a watermark, note it; still build the video if it is usable.
+- Audio: `Audio-assets/<vf_id>.mp3`. Check the duration with ffprobe.
 
-### 4. Viết edit plan
-Tạo `plan.json` theo định dạng ghi ở đầu `Library/tools/render.py`.
-- `duration` = thời lượng audio (= `duration_s` của spec).
-- **Scenes:** theo đúng bảng 4a của spec.
-  - Mốc `start`/`end` của từng cảnh, nối liền từ 0 đến `duration`.
-  - Ảnh N gắn vào cảnh theo `images` trong meta.
-  - Chuyển cảnh và chuyển động chọn từ các từ khóa có trong renderer, sao cho gần nhất với 4a/4b.
-- **Texts:** theo vai trò và thời điểm ở 4c, nhưng **viết lại bằng tiếng Anh cho nội dung VGC**. Không chép nguyên văn text của video gốc.
+### 4. Write the edit plan
+Create `plan.json` in the format described at the top of `Library/tools/render.py`.
+- `duration` = audio duration (= `duration_s` of the spec).
+- **Scenes:** exactly as in table 4a of the spec.
+  - `start`/`end` of each scene, contiguous from 0 to `duration`.
+  - Image N is attached to its scene according to `images` in the meta.
+  - Transitions and motion are chosen from the keywords available in the renderer, as close as possible to 4a/4b.
+- **Texts:** by role and timing as in 4c, but **rewritten in English for VGC content**. Do not copy the original video's text verbatim.
   - If the spec says a text element is **baked into the AI image** (e.g. VF-001: color names on the swatches), do **not** render that text with `render.py`. Only render what the spec marks as rendered.
-  - Tối đa khoảng 7 từ mỗi màn hình.
-  - Tránh 12% dưới cùng và 8% bên phải khung hình (UI của app che).
-- Áp dụng đúng cách khai thác của mục 3: hook ở 0–2s, payoff đúng giây, CTA ở cuối.
+  - At most about 7 words per screen.
+  - Avoid the bottom 12% and the right 8% of the frame (covered by the app UI).
+- Apply the content approach of section 3 exactly: hook at 0–2s, payoff at the right second, CTA at the end.
 
-### 5. Dựng và kiểm tra
+### 5. Render and check
 ```
 python3 Library/tools/render.py plan.json out.mp4
 ```
-- ffprobe: 1080×1920, có audio, thời lượng = `duration` (sai lệch ≤ 0.05s).
-- Tách 6–8 frame (gồm 1 frame mỗi cảnh) rồi **xem bằng mắt**:
-  - Chữ đọc được, không bị cắt.
-  - Ảnh không méo.
-  - Chuyển cảnh đúng chỗ.
-- Sửa plan và render lại nếu cần.
+- ffprobe: 1080×1920, has audio, duration = `duration` (tolerance ≤ 0.05s).
+- Extract 6–8 frames (including 1 frame per scene) and **inspect them visually**:
+  - Text is readable, not clipped.
+  - Images are not distorted.
+  - Transitions land in the right places.
+- Fix the plan and re-render if needed.
 
-### 6. Upload video
-- Tên file: `MM-DD-YYYY-Phien-N.mp4` (không dấu cách).
-- Push vào `Video-Output` (repo public), đặt ở gốc repo.
-- Link cho Metricool: `https://raw.githubusercontent.com/Vgeneralconstruction/Video-Output/main/MM-DD-YYYY-Phien-N.mp4`.
-- Thử link bằng `curl -sI`; phải ra 200 (nếu sandbox chặn mạng thì bỏ qua bước thử).
-- Nếu repo `Video-Output` không tồn tại hoặc không push được:
-  - push video vào `Image-Assets/renders/` thay thế;
-  - **bỏ qua bước Metricool**;
-  - báo Huynh lý do.
+### 6. Upload the video
+- File name: `MM-DD-YYYY-Phien-N.mp4` (no spaces).
+- Push to `Video-Output` (public repo), at the repo root.
+- Link for Metricool: `https://raw.githubusercontent.com/Vgeneralconstruction/Video-Output/main/MM-DD-YYYY-Phien-N.mp4`.
+- Test the link with `curl -sI`; it must return 200 (if the sandbox blocks network access, skip this test).
+- If the `Video-Output` repo does not exist or cannot be pushed to:
+  - push the video to `Image-Assets/renders/` instead;
+  - **skip the Metricool step**;
+  - report the reason to Huynh.
 
-### 7. Caption + hashtag
-- Tiếng Anh, giọng tự tin, ấm, chuyên nghiệp.
-- Dòng đầu là hook, tối đa ~120 ký tự.
-- 1–2 câu thân bài.
-- CTA nhẹ: hỏi ý kiến, hoặc kêu gọi save/follow.
-- Dòng cuối: `V General Construction · Portland Metro & Washington County`.
-- 6–10 hashtag, trộn rộng và địa phương, ví dụ: `#homeremodel #renovation #interiordesign #beforeandafter #portlandoregon #pdxhomes #beavertonoregon #pnwhomes`.
-- Ảnh là ảnh AI → viết như **concept / design idea**. **Không** nói đây là công trình VGC đã thi công.
+### 7. Caption + hashtags
+- English, confident, warm, professional tone.
+- First line is the hook, at most ~120 characters.
+- 1–2 body sentences.
+- Soft CTA: ask for opinions, or invite to save/follow.
+- Last line: `V General Construction · Portland Metro & Washington County`.
+- 6–10 hashtags, mixing broad and local, e.g.: `#homeremodel #renovation #interiordesign #beforeandafter #portlandoregon #pdxhomes #beavertonoregon #pnwhomes`.
+- The images are AI images → write as a **concept / design idea**. Do **not** claim this is a project VGC has built.
 
-### 8. Tạo draft trên Metricool
+### 8. Create the draft on Metricool
 - Brand: `blogId` = `7127510` (v.general.constru).
-- Gọi `getBestTimeToPostByNetwork` để chọn khung giờ tốt kế tiếp.
-  - Múi giờ đăng: **America/Los_Angeles**.
-  - Tránh trùng giờ với draft khác đã có (xem `getScheduledPosts`).
-- `createScheduledPost` với:
+- Call `getBestTimeToPostByNetwork` to choose the next good time slot.
+  - Posting timezone: **America/Los_Angeles**.
+  - Avoid the same time as other existing drafts (see `getScheduledPosts`).
+- `createScheduledPost` with:
   - `draft: true`
-  - `media`: [link raw ở bước 6]
+  - `media`: [the raw link from step 6]
   - `providers`: facebook, instagram, tiktok
   - `facebookData.type`: `"REEL"`
   - `instagramData`: `{"type":"REEL","isAiGenerated":true,"showReelOnFeed":true}`
   - `tiktokData`: `{"isAigc":true,"privacyOption":"PUBLIC_TO_EVERYONE"}`
-  - `text`: caption ở bước 7
+  - `text`: the caption from step 7
   - `publicationDate`: `{dateTime, timezone:"America/Los_Angeles"}`
-- Lưu lại `plannerUrl` trong kết quả trả về.
-- Lỗi thì không thử lại quá 1 lần; ghi lỗi vào log và báo Huynh.
+- Save the `plannerUrl` from the returned result.
+- On error, do not retry more than once; record the error in the log and report it to Huynh.
 
-### 9. Ghi edit-log và push
-Thêm 1 dòng vào `_system/edit-log.md`:
-`| MM-DD-YYYY | N | VF-xxx | MM-DD-YYYY-Phien-N.mp4 | thời lượng | giờ draft (PT) | plannerUrl hoặc lỗi |`
+### 9. Write the edit-log and push
+Append 1 row to `_system/edit-log.md` (in English):
+`| MM-DD-YYYY | N | VF-xxx | MM-DD-YYYY-Phien-N.mp4 | duration | draft time (PT) | plannerUrl or error |`
 
 `git pull --rebase`, commit, push.
 
-### 10. Báo kết quả
-1 tin nhắn **tiếng Việt**, gồm:
-- phiên + VF
-- caption dòng đầu
-- giờ draft trên Metricool (giờ Portland và giờ Hàn)
-- link plannerUrl
-- vấn đề nếu có
+### 10. Report the result
+1 message in **Vietnamese**, including:
+- session + VF
+- first line of the caption
+- draft time on Metricool (Portland time and Korea time)
+- plannerUrl link
+- any issues
