@@ -8,3 +8,4 @@ The edit task writes 1 row after each video it builds. A session not listed here
 | 10-08-2026 | 1 | VF-007 | 10-08-2026-Phien-1.mp4 | 8.10s | 2026-10-08 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=778882194767563464 |
 | 10-08-2026 | 3 | VF-003 | 10-08-2026-Phien-3.mp4 | 15.23s | 2026-10-09 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=-7874460489613556706 |
 | 10-09-2026 | 1 | VF-006 | 10-09-2026-Phien-1.mp4 | 12.83s | 2026-10-10 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=8471827805406577766 (draft, autoPublish off) |
+| 10-09-2026 | 2 | VF-003 | 10-09-2026-Phien-2.mp4 | 15.23s | 2026-10-11 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=-8972664397394392228 (draft, autoPublish off) |
