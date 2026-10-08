@@ -1,0 +1,120 @@
+{
+  "date": "10-09-2026",
+  "session": 4,
+  "prompt_file": "prompts/10-09-2026 - Phien 4.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "title": {
+    "line1": "KITCHEN",
+    "line2": "REMODEL"
+  },
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "before 1",
+      "pair": 1,
+      "note": "three-quarter range wall: exposed studs, framed plywood hood box with flex duct, capped gas stub; foggy dawn"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "reveal 1 + title / cover frame",
+      "pair": 1,
+      "note": "warm-white shaker kitchen with curved plaster range hood, honed Carrara, brass pot rail"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "before 2",
+      "pair": 2,
+      "note": "frontal sink wall: open studs with copper stubs, framed shelf recess with LED wire; rainy night"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "reveal 2",
+      "pair": 2,
+      "note": "charcoal smoked-oak slab cabinets, soapstone integral sink, backlit walnut shelf recess, brick column"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "before 3",
+      "pair": 3,
+      "note": "low view: plywood island base, three capped pendant wires, taped drywall; skylight midday"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "reveal 3",
+      "pair": 3,
+      "note": "fluted white-oak island with quartzite waterfall slab and three amber glass pendants"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "before 4",
+      "pair": 4,
+      "note": "view from dining doorway: bay window with raw plywood bench box, primer patches; drizzle afternoon"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "reveal 4",
+      "pair": 4,
+      "note": "walnut kitchen with built-in bay-window banquette, round marble table, brass sconce"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "before 5 (longest)",
+      "pair": 5,
+      "note": "framed arched alcove with capped vent duct, boxed cabinets; golden sun through back door"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "reveal 5 = climax (only coloured scheme)",
+      "pair": 5,
+      "note": "peacock-teal lacquer cabinets, teal zellige arched range alcove, cream range, Calacatta Viola"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "before 6",
+      "pair": 6,
+      "note": "wide view: taped drywall, framed pantry nook with LED wire, rosin paper floor; blue hour"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "reveal 6 / landing",
+      "pair": 6,
+      "note": "mocha-greige shaker kitchen with glowing glass-front pantry nook and butcher-block counter"
+    }
+  ],
+  "idea": "Six gutted kitchens mid-remodel in 1910s Portland American Foursquare houses hard-cut into six finished kitchens (warm-white plaster-hood shaker, charcoal smoked-oak with soapstone, fluted white-oak island, walnut bay-window banquette, peacock-teal lacquer on the climax, mocha-greige with lit pantry nook).",
+  "idea_en": "Six gutted kitchens mid-remodel in 1910s Portland American Foursquare houses hard-cut into six finished kitchens (warm-white plaster-hood shaker, charcoal smoked-oak with soapstone, fluted white-oak island, walnut bay-window banquette, peacock-teal lacquer on the climax, mocha-greige with lit pantry nook)."
+}
