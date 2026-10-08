@@ -44,7 +44,7 @@ function syncImages() {
 
     const path = targetPath(f.getName());
     const res = putFile(token, path, f);
-    if (res === 'ok' || res === 'exists') {
+    if (res === 'ok' || res === 'replaced') {
       synced[f.getId()] = path;
       props.setProperty('SYNCED_IDS', JSON.stringify(synced));
       done++;
@@ -79,18 +79,24 @@ function putFile(token, path, file) {
               path.split('/').map(encodeURIComponent).join('/');
   const headers = { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' };
 
+  // If the path already exists on GitHub, overwrite it (a re-generated image uploaded to Drive
+  // with the same name replaces the old one). The GitHub API requires the current sha to update.
   const check = UrlFetchApp.fetch(url + '?ref=' + CONFIG.BRANCH, { headers, muteHttpExceptions: true });
-  if (check.getResponseCode() === 200) return 'exists';
+  let sha = null;
+  if (check.getResponseCode() === 200) {
+    try { sha = JSON.parse(check.getContentText()).sha; } catch (e) {}
+  }
 
   const body = {
-    message: 'Drive sync: ' + path,
+    message: (sha ? 'Drive sync (replace): ' : 'Drive sync: ') + path,
     content: Utilities.base64Encode(file.getBlob().getBytes()),
     branch: CONFIG.BRANCH,
   };
+  if (sha) body.sha = sha;
   const r = UrlFetchApp.fetch(url, {
     method: 'put', headers, contentType: 'application/json',
     payload: JSON.stringify(body), muteHttpExceptions: true,
   });
   const code = r.getResponseCode();
-  return (code === 200 || code === 201) ? 'ok' : `HTTP ${code} ${r.getContentText().slice(0, 200)}`;
+  return (code === 200 || code === 201) ? (sha ? 'replaced' : 'ok') : `HTTP ${code} ${r.getContentText().slice(0, 200)}`;
 }
