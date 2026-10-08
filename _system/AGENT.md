@@ -48,6 +48,7 @@ You need to understand 5 things:
 
   The fixed part is written **once** in a LOCK block at the top of the file (e.g. SWATCH LOCK, KITCHEN LOCK). **Do not copy the LOCK into each image.** Each image prompt only states what differs.
 - **Before/after:** same camera angle and architecture; the "before" must be realistically dated, not derelict.
+- **Wrong → right / outdated → modern pairs (Huynh's feedback 2026-10-08):** the "right" image must show the **modern replacement of the same element, clearly visible at the same spot** — never simply remove it (wrong: surface-mounted outlet → right: recessed flush outlet; drop-in sink → undermount sink). Name the concrete modern solution in the prompt.
 - **The entire prompt file is written in English** — the instruction line for ChatGPT at the top of the file, the names and contents of the LOCK blocks, the "(applies to images …)" notes, and every image prompt. No Vietnamese text anywhere in the prompt file (Vietnamese is used only in the report message to Huynh). Prompts are photorealistic, like real photographs taken with a camera. Each prompt states clearly:
   - space and architecture
   - materials
