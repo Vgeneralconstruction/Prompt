@@ -1,0 +1,89 @@
+{
+  "date": "10-10-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-10-2026 - Phien 2.md",
+  "vf_id": "VF-002",
+  "spec": "Library/formats/VF-002.md",
+  "audio": "Audio-assets/VF-002.mp3",
+  "image_count": 7,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        4,
+        11,
+        20
+      ],
+      "role": "F1 hold 1 + strobe (loop frame)",
+      "note": "bookmatched Verde Guatemala green marble slab"
+    },
+    {
+      "image": "02",
+      "scene": [
+        2,
+        21
+      ],
+      "role": "F2 hold 2 + strobe",
+      "note": "handmade glossy cream square tile"
+    },
+    {
+      "image": "03",
+      "scene": [
+        3,
+        6,
+        9,
+        14,
+        19,
+        22
+      ],
+      "role": "F3 hold 3 + strobe",
+      "note": "glossy oxblood vertical finger tile"
+    },
+    {
+      "image": "04",
+      "scene": [
+        7,
+        10,
+        15,
+        18,
+        23
+      ],
+      "role": "F4 hold 4 + strobe",
+      "note": "honed warm-white terrazzo slab with basalt, brick and moss chips"
+    },
+    {
+      "image": "05",
+      "scene": [
+        8,
+        13,
+        16,
+        24
+      ],
+      "role": "F5 hold 5 + strobe",
+      "note": "waxed blackened steel panels with rivets"
+    },
+    {
+      "image": "06",
+      "scene": [
+        5,
+        12,
+        25
+      ],
+      "role": "F6 hold 6 + strobe",
+      "note": "unglazed pale terracotta herringbone tile"
+    },
+    {
+      "image": "07",
+      "scene": [
+        17,
+        26,
+        27
+      ],
+      "role": "F7 hold 7 (longer) + strobe + end card background",
+      "note": "deep moss-green ribbed ceramic tile"
+    }
+  ],
+  "idea": "One rainy-evening range wall in a 1962 Portland post-and-beam kitchen, shot from one locked frame, cycling through 7 full-height backsplashes from bookmatched Verde Guatemala marble to moss-green ribbed tile.",
+  "idea_en": "One rainy-evening range wall in a 1962 Portland post-and-beam kitchen, shot from one locked frame, cycling through 7 full-height backsplashes from bookmatched Verde Guatemala marble to moss-green ribbed tile."
+}
