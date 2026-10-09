@@ -89,6 +89,7 @@ python3 Library/tools/render.py plan.json out.mp4
   - Avoid the same time as other existing drafts (see `getScheduledPosts`).
 - `createScheduledPost` with:
   - `draft: true`
+  - `autoPublish: true` (so that when Huynh approves the draft, Metricool publishes via API; do NOT set it to false)
   - `media`: [the raw link from step 6]
   - `providers`: facebook, instagram, tiktok
   - `facebookData.type`: `"REEL"`
