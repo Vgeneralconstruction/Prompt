@@ -1,0 +1,128 @@
+{
+  "date": "10-11-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-11-2026 - Phien 3.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "door": "D1",
+      "scene": [
+        1,
+        13,
+        21
+      ],
+      "role": "hook strobe / loop frame + hold 7",
+      "note": "D1 amber-stained fir Craftsman door with leaded art-glass lite and dentil shelf"
+    },
+    {
+      "image": "02",
+      "door": "D2",
+      "scene": [
+        2,
+        19
+      ],
+      "role": "strobe + hold 5",
+      "note": "D2 arched storybook door of clear-cedar planks with iron strap hinges and speakeasy grille"
+    },
+    {
+      "image": "03",
+      "door": "D3",
+      "scene": [
+        3
+      ],
+      "role": "strobe only",
+      "note": "D3 midnight-navy mid-century flush door with three stepped lites"
+    },
+    {
+      "image": "04",
+      "door": "D4",
+      "scene": [
+        4,
+        11,
+        20
+      ],
+      "role": "strobe + slowdown + hold 6",
+      "note": "D4 black steel door with four stacked horizontal clear lites"
+    },
+    {
+      "image": "05",
+      "door": "D5",
+      "scene": [
+        5,
+        12,
+        15,
+        22
+      ],
+      "role": "strobe + slowdown + holds 1 and 8",
+      "note": "D5 butter-yellow Craftsman door with four square lites and dentil shelf"
+    },
+    {
+      "image": "06",
+      "door": "D6",
+      "scene": [
+        6,
+        18
+      ],
+      "role": "strobe + hold 4 (drop)",
+      "note": "D6 oxblood mirror-gloss lacquered flush door with brass knob and knocker"
+    },
+    {
+      "image": "07",
+      "door": "D7",
+      "scene": [
+        7,
+        16
+      ],
+      "role": "strobe + hold 2",
+      "note": "D7 shou sugi ban charred cedar door with blackened-bronze bar pull"
+    },
+    {
+      "image": "08",
+      "door": "D8",
+      "scene": [
+        8,
+        17
+      ],
+      "role": "strobe + hold 3",
+      "note": "D8 warm-white Dutch door with top leaf open"
+    },
+    {
+      "image": "09",
+      "door": "D9",
+      "scene": [
+        9,
+        14,
+        23
+      ],
+      "role": "strobe + slowdown + hold 9 showpiece landing",
+      "note": "D9 white-oak door carved in Mount Hood topographic contour relief"
+    },
+    {
+      "image": "10",
+      "door": "D10",
+      "scene": [
+        10
+      ],
+      "role": "slowdown only",
+      "note": "D10 white full-lite French-style door with 15 divided lites"
+    }
+  ],
+  "hold_order_for_caption": [
+    "Butter-yellow Craftsman",
+    "Charred cedar (shou sugi ban)",
+    "White Dutch door",
+    "Oxblood gloss lacquer",
+    "Arched cedar storybook",
+    "Black steel glass",
+    "Amber fir art-glass Craftsman",
+    "Butter-yellow Craftsman",
+    "Carved Mount Hood white oak"
+  ],
+  "overlay": "none (spec 4c default)",
+  "idea": "One soft late-October afternoon on the covered front porch of a 1924 Portland Craftsman bungalow, shot from one locked frame, cycling through 10 front entry doors from an amber art-glass fir Craftsman door to a white-oak door carved like a Mount Hood relief map.",
+  "idea_en": "One soft late-October afternoon on the covered front porch of a 1924 Portland Craftsman bungalow, shot from one locked frame, cycling through 10 front entry doors from an amber art-glass fir Craftsman door to a white-oak door carved like a Mount Hood relief map."
+}
