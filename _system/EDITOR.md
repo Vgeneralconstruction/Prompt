@@ -51,13 +51,13 @@ Create `plan.json` in the format described at the top of `Library/tools/render.p
   - At most about 7 words per screen.
   - Avoid the bottom 12% and the right 8% of the frame (covered by the app UI).
 - Apply the content approach of section 3 exactly: hook at 0–2s, payoff at the right second, CTA at the end.
-- **Company end card (MANDATORY on every video, Huynh 2026-10-10):** add `"outro": true` at the top level of `plan.json`. `render.py` then appends `Library/brand/outro-logo.mp4` (Huynh's animated VGC logo, ~2.33s, with "V GENERAL CONSTRUCTION" and "General Contractor · Oregon & Washington" drawn on it) AFTER `duration`; the music keeps looping and fades out. This overrides any "no end card / seamless loop" statement in a VF spec. Do not draw your own end card (VF-002's brand card is replaced by this one) and do not add other text to it. `duration` in the plan stays the spec's content length.
+- **Company end card (MANDATORY on every video, Huynh 2026-10-10):** add `"outro": true` at the top level of `plan.json`. `render.py` then appends `Library/brand/outro.mp4` (silent ~3.2s clip: Huynh's animated VGC logo + "V General Construction / General Contractor in Oregon & Washington" in gold serif) AFTER `duration`; the music fades out at the end of the content and the end card is silent. This overrides any "no end card / seamless loop" statement in a VF spec. Do not draw your own end card (VF-002's brand card is replaced by this one) and do not add other text to it. `duration` in the plan stays the spec's content length.
 
 ### 5. Render and check
 ```
 python3 Library/tools/render.py plan.json out.mp4
 ```
-- ffprobe: 1080×1920, has audio, duration = `duration` + 2.33s end card (tolerance ≤ 0.1s).
+- ffprobe: 1080×1920, has audio, duration = `duration` + 3.2s end card (tolerance ≤ 0.1s).
 - Check the last ~2s: logo and both text lines are visible.
 - Extract 6–8 frames (including 1 frame per scene) and **inspect them visually**:
   - Text is readable, not clipped.
