@@ -51,7 +51,7 @@ Create `plan.json` in the format described at the top of `Library/tools/render.p
   - At most about 7 words per screen.
   - Avoid the bottom 12% and the right 8% of the frame (covered by the app UI).
 - Apply the content approach of section 3 exactly: hook at 0–2s, payoff at the right second, CTA at the end.
-- **Company end card (MANDATORY on every video, Huynh 2026-10-10):** add `"outro": true` at the top level of `plan.json`. `render.py` then appends `Library/brand/outro.mp4` (silent ~3.2s clip: Huynh's animated VGC logo + "V General Construction / General Contractor in Oregon & Washington" in gold serif) AFTER `duration`; the music fades out at the end of the content and the end card is silent. This overrides any "no end card / seamless loop" statement in a VF spec. Do not draw your own end card (VF-002's brand card is replaced by this one) and do not add other text to it. `duration` in the plan stays the spec's content length.
+- **Company end card (MANDATORY on every video, Huynh 2026-10-10):** add `"outro": true` at the top level of `plan.json`. `render.py` then appends `Library/brand/outro.mp4` (silent ~3.2s clip: Huynh's animated VGC logo + "V General Construction / General Contractor in Oregon & Washington" in gold serif) AFTER `duration`; the music fades out at the end of the content and the end card is silent. This overrides any "no end card / seamless loop" statement in a VF spec. Do not draw your own end card or brand/location text box on the video (Huynh 2026-10-10: the old VF-002 "V GENERAL CONSTRUCTION / Portland Metro" card is removed — F7 just holds to the end) and do not add other text to the end card. `duration` in the plan stays the spec's content length.
 
 ### 5. Render and check
 ```
