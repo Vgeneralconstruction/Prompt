@@ -1,0 +1,74 @@
+{
+  "date": "10-12-2026",
+  "session": 5,
+  "prompt_file": "prompts/10-12-2026 - Phien 5.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        2
+      ],
+      "role": "hook hold / loop frame",
+      "note": "single full-width oiled white-oak Shaker peg rail over a floating oak bench; calmest layout"
+    },
+    {
+      "image": "02",
+      "scene": 3,
+      "role": "reveal of the rule",
+      "note": "floor-to-ceiling fog-green two-door locker cabinet in the far-left corner, one door open"
+    },
+    {
+      "image": "03",
+      "scene": 4,
+      "role": "build",
+      "note": "narrow lit open oak cubby tower centered, six cubbies with seagrass baskets"
+    },
+    {
+      "image": "04",
+      "scene": 5,
+      "role": "build",
+      "note": "two stacked bands: high oak shelf on iron brackets with baskets, low full-width bench with boot cubbies"
+    },
+    {
+      "image": "05",
+      "scene": 6,
+      "role": "build (brightest frame)",
+      "note": "entire wall in whitewashed vertical shiplap with full-width bench, nickel hook rail and top shelf"
+    },
+    {
+      "image": "06",
+      "scene": 7,
+      "role": "build",
+      "note": "narrow column right of center by the back door: heated charcoal steel boot/glove drying rack over a slate dog-wash basin"
+    },
+    {
+      "image": "07",
+      "scene": 8,
+      "role": "build (quietest option)",
+      "note": "single small cedar-lined square niche centered with key bowl, turned fir stool below"
+    },
+    {
+      "image": "08",
+      "scene": 9,
+      "role": "build (signature shape)",
+      "note": "arched-top built-in alcove lined in sage beadboard, lit crown, rust leather cushion, brass hooks, oak drawers"
+    },
+    {
+      "image": "09",
+      "scene": [
+        10,
+        11,
+        12
+      ],
+      "role": "final option + outro fade + loop hold",
+      "note": "three tall lit Douglas fir lockers with ink-blue lacquered backs, cane-panel top cupboards, bench seats, boot drawers"
+    }
+  ],
+  "idea": "One rainy November late afternoon in the back-door mudroom of a 1908 Portland Sellwood farmhouse, shot from one locked frame, cycling through 9 bench-and-storage wall layouts from a single oak peg rail over a floating bench to three lit Douglas fir lockers with ink-blue backs.",
+  "idea_en": "One rainy November late afternoon in the back-door mudroom of a 1908 Portland Sellwood farmhouse, shot from one locked frame, cycling through 9 bench-and-storage wall layouts from a single oak peg rail over a floating bench to three lit Douglas fir lockers with ink-blue backs."
+}
