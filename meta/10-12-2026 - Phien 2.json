@@ -1,0 +1,128 @@
+{
+  "date": "10-12-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-12-2026 - Phien 2.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "door": "D1",
+      "scene": [
+        1,
+        13,
+        21
+      ],
+      "role": "hook strobe / loop frame + slowdown + hold 7",
+      "note": "D1 full-view reeded-glass garage door in a bronze-anodized aluminum frame, glowing amber"
+    },
+    {
+      "image": "02",
+      "door": "D2",
+      "scene": [
+        2,
+        19
+      ],
+      "role": "strobe + hold 5",
+      "note": "D2 oxblood-red arched carriage-house doors with arched windows and iron strap hinges"
+    },
+    {
+      "image": "03",
+      "door": "D3",
+      "scene": [
+        3
+      ],
+      "role": "strobe only",
+      "note": "D3 bone-white flush smooth steel door with hairline reveals, no handle"
+    },
+    {
+      "image": "04",
+      "door": "D4",
+      "scene": [
+        4,
+        11,
+        20
+      ],
+      "role": "strobe + slowdown + hold 6",
+      "note": "D4 matte-black aluminum full-view door with clear 4x5 glass grid showing the lit workshop"
+    },
+    {
+      "image": "05",
+      "door": "D5",
+      "scene": [
+        5,
+        12,
+        15,
+        22
+      ],
+      "role": "strobe + slowdown + holds 1 and 8",
+      "note": "D5 concealed door clad in the same moss-green board-and-batten as the walls"
+    },
+    {
+      "image": "06",
+      "door": "D6",
+      "scene": [
+        6,
+        18
+      ],
+      "role": "strobe + hold 4 (drop)",
+      "note": "D6 horizontal clear western red cedar slat door, honey-copper in the low sun"
+    },
+    {
+      "image": "07",
+      "door": "D7",
+      "scene": [
+        7,
+        16
+      ],
+      "role": "strobe + hold 2",
+      "note": "D7 espresso thermally modified ash vertical tongue-and-groove door with blackened-steel bar pull"
+    },
+    {
+      "image": "08",
+      "door": "D8",
+      "scene": [
+        8,
+        17
+      ],
+      "role": "strobe + hold 3",
+      "note": "D8 mid-century cream steel door with raised diamond-lattice moulding and square windows"
+    },
+    {
+      "image": "09",
+      "door": "D9",
+      "scene": [
+        9,
+        14,
+        23
+      ],
+      "role": "strobe + slowdown + hold 9 showpiece landing",
+      "note": "D9 corten weathering-steel door laser-cut as a Douglas fir forest, glowing from inside"
+    },
+    {
+      "image": "10",
+      "door": "D10",
+      "scene": [
+        10
+      ],
+      "role": "slowdown only",
+      "note": "D10 slate-blue vertical-groove door with a frosted glass band across the top"
+    }
+  ],
+  "hold_order_for_caption": [
+    "Hidden moss board-and-batten",
+    "Espresso thermally modified ash",
+    "Mid-century diamond lattice",
+    "Western red cedar slats",
+    "Oxblood arched carriage house",
+    "Black steel full-view glass",
+    "Bronze reeded glass",
+    "Hidden moss board-and-batten",
+    "Corten fir-forest cut-out"
+  ],
+  "overlay": "none (spec 4c default)",
+  "idea": "One clear, cold January late afternoon in front of the two-car garage of a 1962 Portland Northwest-modern post-and-beam ranch, shot from one locked frame, cycling through 10 garage doors from a bronze reeded-glass door to a corten steel door laser-cut as a glowing Douglas fir forest.",
+  "idea_en": "One clear, cold January late afternoon in front of the two-car garage of a 1962 Portland Northwest-modern post-and-beam ranch, shot from one locked frame, cycling through 10 garage doors from a bronze reeded-glass door to a corten steel door laser-cut as a glowing Douglas fir forest."
+}
