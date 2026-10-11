@@ -1,0 +1,22 @@
+{
+  "date": "10-12-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-12-2026 - Phien 1.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {"image": "01", "scene": [1, 2], "role": "hook hold / loop frame", "note": "bare warm-white lime plaster wall, curved plaster chimney hood centered, slim soapstone ledge; calmest layout"},
+    {"image": "02", "scene": 3, "role": "reveal of the rule", "note": "floor-to-ceiling olive glass-front cabinet tower in the far-left corner, stainless chimney hood"},
+    {"image": "03", "scene": 4, "role": "build", "note": "narrow full-height reclaimed fir hood centered, vertical handmade white subway tile behind range"},
+    {"image": "04", "scene": 5, "role": "build", "note": "two full-width floating walnut shelves with copper pans, hidden hood insert, cream zellige strip"},
+    {"image": "05", "scene": 6, "role": "build (brightest frame)", "note": "entire wall in bookmatched honed Carrara marble with full-width ledge, hood hidden in white plaster soffit"},
+    {"image": "06", "scene": 7, "role": "build", "note": "black steel box hood, tall oak plate rack with blue-and-white plates and spice cubbies on the right"},
+    {"image": "07", "scene": 8, "role": "build (quietest option)", "note": "single framed square of blue-and-white Delft tiles, small black canopy hood, brass rail with copper saucepans"},
+    {"image": "08", "scene": 9, "role": "build (signature shape)", "note": "Tudor-arched plaster alcove lined in terracotta tile around the range, two lit arched niches flanking"},
+    {"image": "09", "scene": [10, 11, 12], "role": "final option + outro fade + loop hold", "note": "hammered copper hood with brass bands, sage zellige to the cornice, lit leaded-glass olive uppers, open oak shelves with herbs"}
+  ],
+  "idea": "One sunny early-March morning after rain in the kitchen of a 1936 Portland English Tudor Revival house, shot from one locked frame, cycling through 9 range-wall layouts from a bare plaster wall with a curved plaster hood to a hammered copper hood framed by sage zellige and leaded-glass cabinets.",
+  "idea_en": "One sunny early-March morning after rain in the kitchen of a 1936 Portland English Tudor Revival house, shot from one locked frame, cycling through 9 range-wall layouts from a bare plaster wall with a curved plaster hood to a hammered copper hood framed by sage zellige and leaded-glass cabinets."
+}
