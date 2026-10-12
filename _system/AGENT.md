@@ -30,15 +30,30 @@ You need to understand 5 things:
 - **Section 6:** suggested VGC ideas. For reference only, not mandatory.
 - **Relationships between scenes:** same camera angle? same space? time sequence? comparison?
 
-### 4. Come up with a NEW idea
-- Read the entire `_system/ideas-log.md`.
-- The new idea must **differ from every existing idea** on at least 2 of the 4 axes:
-  - **Space:** type of room or area, such as kitchen, bathroom, living room, bedroom, basement, attic, garage, facade, backyard, deck, entryway, staircase, laundry, commercial office, retail store...
-  - **House type / era:** 1920s craftsman, bungalow, mid-century ranch, 1970s split-level, cape cod, victorian, townhouse, ADU, new-build 2000s, commercial space...
-  - **Style set / transformation theme:** style group, materials, color palette, season, time of day...
-  - **Main camera angle / composition.**
-- Within the same VF, do not repeat a (space + house type) combination already used with that VF.
-- The idea must fit a home-renovation company in Portland, Oregon (Pacific Northwest climate, wood-frame houses, lots of greenery, rainy weather).
+### 4. Come up with a NEW idea (random draw, not avoidance)
+**Rule change (Huynh 2026-10-12):** the idea is chosen by a *random draw with a gentle anti-repeat weight* — NOT by "avoid everything the source video or the log already did". Spaces that appear in the original viral video (e.g. a living room fireplace for VF-002) are fully allowed and should come up regularly; they must never be excluded. The goal is only that the channel does not repeat the same combination too often.
+
+1. Read the entire `_system/ideas-log.md` (it has space / house type / style-theme / camera-angle columns).
+2. **Draw the space and house era with code** (not by "what feels fresh"). Use a weighted random choice over the FULL lists below, where the weight of an item is `1 / (1 + uses_in_last_20_log_rows)` — rarely used items are more likely, but every item always has a non-zero chance, including the space shown in the source video:
+   - Spaces: kitchen, bathroom, living room, bedroom, primary suite, walk-in closet, basement, attic, garage, facade, front porch, backyard, deck, entryway, staircase, laundry, mudroom, home office, dining room, hallway, commercial office, retail store...
+   - House type / era: 1920s craftsman, bungalow, mid-century ranch, 1970s split-level, cape cod, victorian, townhouse, ADU, 1980s–2000s contemporary, new-build 2018+, commercial space...
+   - Then pick style set / theme, season, time of day and main camera angle at random too (same weighting idea), keeping them coherent with the draw.
+   ```
+   python3 - <<'PY'
+   import random, re
+   # build `recent` = list of space strings from the last 20 ideas-log rows, then:
+   # w = [1/(1+recent.count(x)) for x in SPACES]; space = random.choices(SPACES, w)[0]
+   PY
+   ```
+   Redraw (max 5 times) only if a hard rule below is violated.
+3. **Hard rules (the only things that force a redraw):**
+   - Not the same space as the immediately preceding session.
+   - Never the same (VF + space + house type) combination already in the log.
+   - Not the same space more than 2 times in the last 10 log rows.
+4. **Close repeats are allowed but must differ:** if the drawn space was used before (even with the same VF), change the house type, style/theme, season/time and camera angle so the finished video does not look like the old one.
+5. Do NOT steer away from a space just because the source video or earlier videos used it. If the draw gives that space, write it.
+6. The idea must fit a home-renovation company in Portland, Oregon (Pacific Northwest climate, wood-frame houses, lots of greenery, rainy weather).
+7. In the log row, record the draw (e.g. "random draw") so it is visible that the choice was not an avoidance choice.
 
 ### 5. Write the prompts following the VF structure exactly
 - **Number of images = the `images` field in the spec frontmatter** (also stated in section 6 "To prepare"). It is NOT always the number of scenes: a format may reuse the same images across many scenes (e.g. VF-002 has 27 scenes but only 7 images). The image → scene mapping follows section 4a / section 6 of the spec; in the meta file list each image once with the scenes it is used in ("scene" may be a list).
@@ -107,7 +122,7 @@ One short message in **Vietnamese**: file name, chosen VF, the idea in 1 sentenc
 - [ ] Number of images matches the `images` field of the spec frontmatter.
 - [ ] LOCK appears only once at the top of the file, not copied into each image.
 - [ ] Word count with `wc -w`: whole file ≤ 900 words.
-- [ ] Idea differs from the log on at least 2 axes, and does not repeat a (space + house type) combination with the same VF.
+- [ ] Idea came from the weighted random draw (step 4); hard rules satisfied (not same space as previous session, no repeated VF+space+house type, ≤2 same space in last 10 rows); no space was avoided just because the source video used it.
 - [ ] No text, logo, or people in the prompts (unless required).
 - [ ] The prompt file contains no information beyond the images (no VF, audio, caption, editing).
 - [ ] The prompt file is 100% English, including the instruction line at the top and the LOCK labels.
