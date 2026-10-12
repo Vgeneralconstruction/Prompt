@@ -1,0 +1,89 @@
+{
+  "date": "10-13-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-13-2026 - Phien 3.md",
+  "vf_id": "VF-002",
+  "spec": "Library/formats/VF-002.md",
+  "audio": "Audio-assets/VF-002.mp3",
+  "image_count": 7,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        4,
+        11,
+        20
+      ],
+      "role": "F1 feature wall finish",
+      "note": "cobalt-blue glossy scalloped fish-scale ceramic tile (most dramatic, loop/first flash)"
+    },
+    {
+      "image": "02",
+      "scene": [
+        2,
+        21
+      ],
+      "role": "F2 feature wall finish",
+      "note": "warm-white limewash plaster"
+    },
+    {
+      "image": "03",
+      "scene": [
+        3,
+        6,
+        9,
+        14,
+        19,
+        22
+      ],
+      "role": "F3 feature wall finish",
+      "note": "vertical rift white-oak slats over black felt"
+    },
+    {
+      "image": "04",
+      "scene": [
+        7,
+        10,
+        15,
+        18,
+        23
+      ],
+      "role": "F4 feature wall finish",
+      "note": "honed charcoal slate slabs"
+    },
+    {
+      "image": "05",
+      "scene": [
+        8,
+        13,
+        16,
+        24
+      ],
+      "role": "F5 feature wall finish",
+      "note": "unglazed terracotta herringbone brick tile"
+    },
+    {
+      "image": "06",
+      "scene": [
+        5,
+        12,
+        25
+      ],
+      "role": "F6 feature wall finish",
+      "note": "sage-green satin board-and-batten"
+    },
+    {
+      "image": "07",
+      "scene": [
+        17,
+        26,
+        27
+      ],
+      "role": "F7 feature wall finish",
+      "note": "burnished oatmeal lime plaster with shallow arched recess (final hold, held longest)"
+    }
+  ],
+  "idea": "One rainy autumn-night laundry room in a 2006 Portland townhouse, same fixtures and pendants, with the back wall swapped through seven finishes.",
+  "idea_en": "One rainy autumn-night laundry room in a 2006 Portland townhouse, same fixtures and pendants, with the back wall swapped through seven finishes."
+}
