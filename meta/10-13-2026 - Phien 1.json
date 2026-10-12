@@ -1,0 +1,89 @@
+{
+  "date": "10-13-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-13-2026 - Phien 1.md",
+  "vf_id": "VF-002",
+  "spec": "Library/formats/VF-002.md",
+  "audio": "Audio-assets/VF-002.mp3",
+  "image_count": 7,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        4,
+        11,
+        20
+      ],
+      "role": "F1 feature wall finish",
+      "note": "sculpted wave-relief sand plaster with amber LED cove (most dramatic, loop/first flash)"
+    },
+    {
+      "image": "02",
+      "scene": [
+        2,
+        21
+      ],
+      "role": "F2 feature wall finish",
+      "note": "shou sugi ban charred cedar boards"
+    },
+    {
+      "image": "03",
+      "scene": [
+        3,
+        6,
+        9,
+        14,
+        19,
+        22
+      ],
+      "role": "F3 feature wall finish",
+      "note": "white board-and-batten"
+    },
+    {
+      "image": "04",
+      "scene": [
+        7,
+        10,
+        15,
+        18,
+        23
+      ],
+      "role": "F4 feature wall finish",
+      "note": "bottle-green handmade zellige"
+    },
+    {
+      "image": "05",
+      "scene": [
+        8,
+        13,
+        16,
+        24
+      ],
+      "role": "F5 feature wall finish",
+      "note": "honed ivory travertine ledger strips"
+    },
+    {
+      "image": "06",
+      "scene": [
+        5,
+        12,
+        25
+      ],
+      "role": "F6 feature wall finish",
+      "note": "smoked walnut slats with brass inlay"
+    },
+    {
+      "image": "07",
+      "scene": [
+        17,
+        26,
+        27
+      ],
+      "role": "F7 feature wall finish",
+      "note": "dusty-rose burnished clay plaster (longer last hold)"
+    }
+  ],
+  "idea": "One upstairs hallway of a 1999 Northwest contemporary house at winter dusk, with the same sconces, shelf, runner and window while the feature wall flickers through seven finishes.",
+  "idea_en": "One upstairs hallway of a 1999 Northwest contemporary house at winter dusk, with the same sconces, shelf, runner and window while the feature wall flickers through seven finishes."
+}
