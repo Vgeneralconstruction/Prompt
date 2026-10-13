@@ -1,0 +1,26 @@
+{
+  "date": "10-14-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-14-2026 - Phien 1.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "images": [
+    {"image": "01", "scene": [2, 3, 4, 5, 6, 7, 8, 9], "role": "E1 hook before (typewriter line 1 over it)", "note": "pair 1 shell: primed drywall, half-arch niche, dusty subfloor"},
+    {"image": "02", "scene": [1, 10, 11, 12, 13, 14, 15, 16, 17], "role": "W1 reveal 1 / cover and loop frame (typewriter line 2 over it)", "note": "cream wardrobe wall, fluted walnut, arched LED mirror, herringbone floor"},
+    {"image": "03", "scene": [18], "role": "E2 before 2", "note": "pair 2 bare bed wall with studs and electrical boxes, rainy blue hour"},
+    {"image": "04", "scene": [19], "role": "W2 reveal 2", "note": "smoked-oak headboard wall with bridging cabinets and brass sconces"},
+    {"image": "05", "scene": [20], "role": "E3 before 3", "note": "pair 3 raw dressing alcove, joint compound and dust"},
+    {"image": "06", "scene": [21], "role": "W3 reveal 3", "note": "lime-plaster dressing nook with travertine shelf and pill mirror, sun stripes"},
+    {"image": "07", "scene": [22], "role": "E4 before 4", "note": "pair 4 window bay shell with bare studs"},
+    {"image": "08", "scene": [23], "role": "W4 reveal 4", "note": "white-oak window seat with drawers, bookshelves, wet firs outside"},
+    {"image": "09", "scene": [24], "role": "E5 before 5 (longest)", "note": "pair 5 elevated-corner shell with rough opening and chalk line"},
+    {"image": "10", "scene": [25], "role": "W5 reveal 5 = climax (only coloured scheme)", "note": "moss-green lacquer wardrobe with backlit shelves and brass, golden light"},
+    {"image": "11", "scene": [26], "role": "E6 before 6", "note": "pair 6 walk-in closet corridor with fresh blue-board"},
+    {"image": "12", "scene": [27], "role": "W6 reveal 6 / landing", "note": "mocha wardrobe doors, lit mirror niche, burgundy pouf, warm night glow"}
+  ],
+  "labels": {"line_1": "WARDROBE", "line_2": "BUILT-INS"},
+  "idea": "Six bare 1970s split-level primary-suite shells in Portland turn into six different built-ins (wardrobe wall, headboard wall, dressing nook, window seat, moss-green climax wardrobe, walk-in closet entry) in six angles and six light moments.",
+  "idea_en": "Six bare 1970s split-level primary-suite shells in Portland turn into six different built-ins (wardrobe wall, headboard wall, dressing nook, window seat, moss-green climax wardrobe, walk-in closet entry) in six angles and six light moments."
+}
