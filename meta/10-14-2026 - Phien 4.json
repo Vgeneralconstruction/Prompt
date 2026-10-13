@@ -1,0 +1,93 @@
+{
+  "date": "10-14-2026",
+  "session": 4,
+  "prompt_file": "prompts/10-14-2026 - Phien 4.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "swatch pair",
+      "note": "Wallpaper + paint samples: fern wallpaper + mossy green paint",
+      "labels": [
+        "FERN BOTANICAL",
+        "BOG GREEN"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "note": "Attic home office using fern wallpaper + mossy green paint"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "swatch pair",
+      "note": "Wallpaper + paint samples: navy pinstripe wallpaper + oatmeal paint",
+      "labels": [
+        "NAVY PINSTRIPE",
+        "OAT MILK"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "note": "Attic home office using navy pinstripe wallpaper + oatmeal paint"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "swatch pair",
+      "note": "Wallpaper + paint samples: terracotta arch wallpaper + pale sage paint",
+      "labels": [
+        "SUNSET ARCH",
+        "SAGE MIST"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "note": "Attic home office using terracotta arch wallpaper + pale sage paint"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "swatch pair",
+      "note": "Wallpaper + paint samples: dark peony wallpaper + warm grey paint",
+      "labels": [
+        "INK BLOSSOM",
+        "PUTTY GREY"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "note": "Attic home office using dark peony wallpaper + warm grey paint"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "swatch pair",
+      "note": "Wallpaper + paint samples: golden grasscloth + dusty plum paint",
+      "labels": [
+        "GOLD LINEN",
+        "PLUM DUSK"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "note": "Attic home office using golden grasscloth + dusty plum paint"
+    }
+  ],
+  "idea": "Five wallpaper + paint pairs for a 1912 Foursquare attic home office in Portland, each sample pair followed by the finished room.",
+  "idea_en": "Five wallpaper + paint pairs for a 1912 Foursquare attic home office in Portland, each sample pair followed by the finished room."
+}
