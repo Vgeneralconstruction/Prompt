@@ -1,0 +1,27 @@
+{
+  "date": "10-14-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-14-2026 - Phien 2.md",
+  "vf_id": "VF-003",
+  "spec": "Library/formats/VF-003.md",
+  "audio": "Audio-assets/VF-003.mp3",
+  "image_count": 14,
+  "images": [
+    {"image": "01", "scene": 1, "role": "pair 1 wrong", "pair": 1, "note": "ceiling light: dated dome flush-mount", "mark": {"x": 0.5, "y": 0.3}},
+    {"image": "02", "scene": 2, "role": "pair 1 right", "pair": 1, "note": "ceiling light: black linear pendant with opal globes", "mark": {"x": 0.5, "y": 0.3}},
+    {"image": "03", "scene": 3, "role": "pair 2 wrong", "pair": 2, "note": "window covering: vinyl mini-blinds", "mark": {"x": 0.5, "y": 0.5}},
+    {"image": "04", "scene": 4, "role": "pair 2 right", "pair": 2, "note": "window covering: linen ripple-fold drapes on ceiling track", "mark": {"x": 0.5, "y": 0.5}},
+    {"image": "05", "scene": 5, "role": "pair 3 wrong", "pair": 3, "note": "outlet: surface-mounted beige outlet", "mark": {"x": 0.68, "y": 0.72}},
+    {"image": "06", "scene": 6, "role": "pair 3 right", "pair": 3, "note": "outlet: flush recessed outlet matching plaster", "mark": {"x": 0.68, "y": 0.72}},
+    {"image": "07", "scene": 7, "role": "pair 4 wrong", "pair": 4, "note": "heater: cast-iron radiator", "mark": {"x": 0.5, "y": 0.55}},
+    {"image": "08", "scene": 8, "role": "pair 4 right", "pair": 4, "note": "heater: slim panel radiator", "mark": {"x": 0.5, "y": 0.55}},
+    {"image": "09", "scene": 9, "role": "pair 5 wrong", "pair": 5, "note": "buffet hardware: brass bail pull on raised panel", "mark": {"x": 0.6, "y": 0.5}},
+    {"image": "10", "scene": 10, "role": "pair 5 right", "pair": 5, "note": "buffet hardware: recessed finger-pull on flat oak door", "mark": {"x": 0.6, "y": 0.5}},
+    {"image": "11", "scene": 11, "role": "pair 6 wrong", "pair": 6, "note": "thermostat: beige dial", "mark": {"x": 0.4, "y": 0.5}},
+    {"image": "12", "scene": 12, "role": "pair 6 right", "pair": 6, "note": "thermostat: black smart thermostat", "mark": {"x": 0.4, "y": 0.5}},
+    {"image": "13", "scene": 13, "role": "pair 7 wrong", "pair": 7, "note": "kitchen door: louvered folding door", "mark": {"x": 0.5, "y": 0.52}},
+    {"image": "14", "scene": 14, "role": "pair 7 right", "pair": 7, "note": "kitchen door: white-oak pocket door with recessed pull", "mark": {"x": 0.5, "y": 0.52}}
+  ],
+  "idea": "Seven dated-vs-modern detail upgrades in a 1924 Portland craftsman dining room: ceiling light, window covering, outlet, radiator, buffet hardware, thermostat and kitchen door.",
+  "idea_en": "Seven dated-vs-modern detail upgrades in a 1924 Portland craftsman dining room: ceiling light, window covering, outlet, radiator, buffet hardware, thermostat and kitchen door."
+}
