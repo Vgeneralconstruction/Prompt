@@ -1,0 +1,67 @@
+{
+  "date": "10-14-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-14-2026 - Phien 3.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {
+      "image": "01",
+      "scene": 2,
+      "role": "hook / calmest loop frame",
+      "note": "Long horizontal cedar-slat screen with LED strip above ferns"
+    },
+    {
+      "image": "02",
+      "scene": 3,
+      "role": "rule reveal",
+      "note": "Tall corten steel trellis column at far-left post with clematis"
+    },
+    {
+      "image": "03",
+      "scene": 4,
+      "role": "build",
+      "note": "Centered five-tier stepped cedar herb tower"
+    },
+    {
+      "image": "04",
+      "scene": 5,
+      "role": "build",
+      "note": "Two stacked board-formed concrete planter ledges"
+    },
+    {
+      "image": "05",
+      "scene": 6,
+      "role": "build (brightest)",
+      "note": "Whole fence clad in charred cedar with two full-width lit ledges"
+    },
+    {
+      "image": "06",
+      "scene": 7,
+      "role": "build",
+      "note": "Narrow three-niche green ceramic column right of center with copper rain chain"
+    },
+    {
+      "image": "07",
+      "scene": 8,
+      "role": "build (quietest)",
+      "note": "Single small square steel-framed window in the fence"
+    },
+    {
+      "image": "08",
+      "scene": 9,
+      "role": "build (signature shape)",
+      "note": "Tall arched limewashed stucco niche with five lit shelves"
+    },
+    {
+      "image": "09",
+      "scene": 10,
+      "role": "final option",
+      "note": "Three narrow backlit vertical slot openings with bamboo, pampas and fescue"
+    }
+  ],
+  "idea": "One summer-midday backyard of a 1970s Portland split-level where only the built-in feature on the rear fence changes across 9 layouts.",
+  "idea_en": "One summer-midday backyard of a 1970s Portland split-level where only the built-in feature on the rear fence changes across 9 layouts."
+}
