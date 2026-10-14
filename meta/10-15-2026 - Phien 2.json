@@ -1,0 +1,61 @@
+{
+  "date": "10-15-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-15-2026 - Phien 2.md",
+  "vf_id": "VF-007",
+  "spec": "Library/formats/VF-007.md",
+  "audio": "Audio-assets/VF-007.mp3",
+  "image_count": 8,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "loop frame / clean frontal",
+      "note": "symmetrical floating oak vanity, arched backlit niche with eucalyptus, round brass mirror"
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "build (tick 1)",
+      "note": "frontal shifted left, ledge sink, fluted-glass linen tower, backlit vertical niche"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "build (tick 2)",
+      "note": "3/4 right, travertine backsplash slab, halo mirror, routed finger-groove drawers"
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "build (tick 3)",
+      "note": "3/4 left low, trough sink, black steel frame with oak shelves"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "hero on the drop",
+      "note": "curved plaster alcove, rippled fluted-oak vanity, river-stone basin, amber arched niche"
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "groove",
+      "note": "high angle from doorway, wall-to-wall oak vanity with brass ledge, two arched niches, herringbone floor"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "groove",
+      "note": "tight 3/4 left, pill mirror in plaster recess, fluted drawers, terracotta tile niche"
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "landing / long hold",
+      "note": "calm wide doorway view, plaster arch over mirror, brass globe pendant, woven stool"
+    }
+  ],
+  "idea": "Eight sage-and-oak vanity-wall designs for a 2021 Portland backyard ADU bathroom, one collection, early-February morning, random draw.",
+  "idea_en": "Eight sage-and-oak vanity-wall designs for a 2021 Portland backyard ADU bathroom, one collection, early-February morning, random draw."
+}
