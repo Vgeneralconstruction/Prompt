@@ -1,0 +1,108 @@
+{
+  "date": "10-15-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-15-2026 - Phien 3.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "E1 hook before (typewriter line 1 over it)",
+      "note": "pair 1 gutted craftsman bedroom shell: lath, plaster arch, golden sun"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "W1 reveal 1 / cover and loop frame (typewriter line 2 over it)",
+      "note": "white-oak wardrobe wall with warm-white lower doors and lit arch display cabinet"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "E2 before 2",
+      "note": "pair 2 attic knee wall with bare rafters and batts"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "W2 reveal 2",
+      "note": "Douglas-fir cane-front drawer bank under skylight"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "E3 before 3",
+      "note": "pair 3 framed walk-in closet, studs and plywood island footprint, dusk"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "W3 reveal 3",
+      "note": "smoked-oak walk-in closet with lit shelves and glass-top island"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "E4 before 4",
+      "note": "pair 4 opened bedroom firebox, sooty brick, ghost mantel marks"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "W4 reveal 4",
+      "note": "green zellige fireplace with oak mantel and glazed built-ins"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "E5 before 5 (longest)",
+      "note": "pair 5 elevated-corner shell with rough alcove and chalk line"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "W5 reveal 5 = climax (only coloured scheme)",
+      "note": "saffron-ochre lacquer wardrobe wall with walnut shelves, golden light"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "E6 before 6",
+      "note": "pair 6 bare upstairs hallway, blue-board, dusk window"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "W6 reveal 6 / landing",
+      "note": "bleached-ash fluted-glass linen cabinet with bench and hooks, warm dusk"
+    }
+  ],
+  "labels": {
+    "line_1": "SUITE",
+    "line_2": "BUILT-INS"
+  },
+  "idea": "Six bare rooms of a 1920s craftsman primary suite in Portland (lath-and-plaster bedroom, attic knee wall, walk-in closet, fireplace wall, dressing wall, upstairs hallway) turn into six different built-ins in six angles and six summer light moments.",
+  "idea_en": "Six bare rooms of a 1920s craftsman primary suite in Portland (lath-and-plaster bedroom, attic knee wall, walk-in closet, fireplace wall, dressing wall, upstairs hallway) turn into six different built-ins in six angles and six summer light moments."
+}
