@@ -1,0 +1,89 @@
+{
+  "date": "10-15-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-15-2026 - Phien 1.md",
+  "vf_id": "VF-002",
+  "spec": "Library/formats/VF-002.md",
+  "audio": "Audio-assets/VF-002.mp3",
+  "image_count": 7,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        4,
+        11,
+        20
+      ],
+      "role": "F1 feature wall finish",
+      "note": "backlit honey-amber translucent onyx slabs (most dramatic, loop/first flash)"
+    },
+    {
+      "image": "02",
+      "scene": [
+        2,
+        21
+      ],
+      "role": "F2 feature wall finish",
+      "note": "white half-round fluted plaster"
+    },
+    {
+      "image": "03",
+      "scene": [
+        3,
+        6,
+        9,
+        14,
+        19,
+        22
+      ],
+      "role": "F3 feature wall finish",
+      "note": "board-formed charcoal concrete"
+    },
+    {
+      "image": "04",
+      "scene": [
+        7,
+        10,
+        15,
+        18,
+        23
+      ],
+      "role": "F4 feature wall finish",
+      "note": "handmade sage-green zellige tile"
+    },
+    {
+      "image": "05",
+      "scene": [
+        8,
+        13,
+        16,
+        24
+      ],
+      "role": "F5 feature wall finish",
+      "note": "terracotta limewash plaster"
+    },
+    {
+      "image": "06",
+      "scene": [
+        5,
+        12,
+        25
+      ],
+      "role": "F6 feature wall finish",
+      "note": "end-grain Douglas fir block mosaic"
+    },
+    {
+      "image": "07",
+      "scene": [
+        17,
+        26,
+        27
+      ],
+      "role": "F7 feature wall finish",
+      "note": "ivory split-face travertine ledger stone (final hold, held longest)"
+    }
+  ],
+  "idea": "One bright spring-midday home-goods boutique in a 1996 Beaverton retail unit, same counter, olive tree and pendant, with the checkout back wall swapped through seven finishes.",
+  "idea_en": "One bright spring-midday home-goods boutique in a 1996 Beaverton retail unit, same counter, olive tree and pendant, with the checkout back wall swapped through seven finishes."
+}
