@@ -27,3 +27,4 @@ The edit task writes 1 row after each video it builds. A session not listed here
 | 10-14-2026 | 3 | VF-005 | 10-14-2026-Phien-3.mp4 | 11.83s (8.64s + 3.2s end card) | 2026-10-27 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=8397801110983364096 |
 | 10-15-2026 | 1 | VF-002 | 10-15-2026-Phien-1.mp4 | 13.37s (10.17s + 3.2s end card) | 2026-10-28 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=-1194489300021066721 |
 | 10-15-2026 | 2 | VF-007 | 10-15-2026-Phien-2.mp4 | 11.30s (8.11s + 3.2s end card) | 2026-10-29 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=5221354331570324572 |
+| 10-15-2026 | 3 | VF-006 | 10-15-2026-Phien-3.mp4 | 16.03s (12.83s + 3.2s end card) | 2026-10-30 18:00 PT | https://app.metricool.com/planner/calendar?blogId=7127510&openWithPostUuid=1934428541863936756 |
