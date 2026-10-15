@@ -1,0 +1,106 @@
+{
+  "date": "10-16-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-16-2026 - Phien 3.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        13,
+        21
+      ],
+      "role": "hook strobe first flash / loop frame",
+      "note": "fluted bronze-framed glass door"
+    },
+    {
+      "image": "02",
+      "scene": [
+        2,
+        19
+      ],
+      "role": "strobe + hold 5",
+      "note": "arched cream flush door"
+    },
+    {
+      "image": "03",
+      "scene": [
+        3
+      ],
+      "role": "strobe only",
+      "note": "forest-green flush door with black shadow-gap"
+    },
+    {
+      "image": "04",
+      "scene": [
+        4,
+        11,
+        20
+      ],
+      "role": "strobe + hold 6",
+      "note": "black steel smoked-glass Crittall door"
+    },
+    {
+      "image": "05",
+      "scene": [
+        5,
+        12,
+        15,
+        22
+      ],
+      "role": "strobe + holds 1 and 8",
+      "note": "concealed jib door in wall plaster"
+    },
+    {
+      "image": "06",
+      "scene": [
+        6,
+        18
+      ],
+      "role": "strobe + hold 4 (drop)",
+      "note": "rift white oak slab"
+    },
+    {
+      "image": "07",
+      "scene": [
+        7,
+        16
+      ],
+      "role": "strobe + hold 2",
+      "note": "smoked walnut slab with brass pull"
+    },
+    {
+      "image": "08",
+      "scene": [
+        8,
+        17
+      ],
+      "role": "strobe + hold 3",
+      "note": "ink-blue Victorian four-panel door"
+    },
+    {
+      "image": "09",
+      "scene": [
+        9,
+        14,
+        23
+      ],
+      "role": "showpiece, last hold",
+      "note": "sculpted wave-relief plaster door"
+    },
+    {
+      "image": "10",
+      "scene": [
+        10
+      ],
+      "role": "strobe/slowdown only",
+      "note": "grey-washed ledged plank door with strap hinges"
+    }
+  ],
+  "idea": "Locked low-angle frame of a Victorian attic landing where only the door changes across 10 designs, from fluted bronze glass to a sculpted wave-relief showpiece.",
+  "idea_en": "Locked low-angle frame of a Victorian attic landing where only the door changes across 10 designs, from fluted bronze glass to a sculpted wave-relief showpiece."
+}
