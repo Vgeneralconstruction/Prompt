@@ -1,0 +1,103 @@
+{
+  "date": "10-17-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-17-2026 - Phien 2.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "sample",
+      "pair": 1,
+      "note": "Two upright showroom samples: Oxblood Red (lacquered wood) and Pale Sage (plaster/limewash)",
+      "labels": [
+        "OXBLOOD RED",
+        "PALE SAGE"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "pair": 1,
+      "note": "Victorian library, Oxblood Red bookcases and Pale Sage walls; straight-on from doorway, one-point 24mm"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "sample",
+      "pair": 2,
+      "note": "Two upright showroom samples: Peacock Teal (lacquered wood) and Antique Cream (plaster/limewash)",
+      "labels": [
+        "PEACOCK TEAL",
+        "ANTIQUE CREAM"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "pair": 2,
+      "note": "Victorian library, Peacock Teal bookcases and Antique Cream walls; low corner three-quarter 24mm"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "sample",
+      "pair": 3,
+      "note": "Two upright showroom samples: Charcoal Plum (lacquered wood) and Dusty Rose (plaster/limewash)",
+      "labels": [
+        "CHARCOAL PLUM",
+        "DUSTY ROSE"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "pair": 3,
+      "note": "Victorian library, Charcoal Plum bookcases and Dusty Rose walls; high diagonal from ladder 24mm"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "sample",
+      "pair": 4,
+      "note": "Two upright showroom samples: Ochre Gold (lacquered wood) and Slate Blue (plaster/limewash)",
+      "labels": [
+        "OCHRE GOLD",
+        "SLATE BLUE"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "pair": 4,
+      "note": "Victorian library, Ochre Gold bookcases and Slate Blue walls; reverse view from bay window seat 28mm"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "sample",
+      "pair": 5,
+      "note": "Two upright showroom samples: Pine Green (lacquered wood) and Terracotta (plaster/limewash)",
+      "labels": [
+        "PINE GREEN",
+        "TERRACOTTA"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "pair": 5,
+      "note": "Victorian library, Pine Green bookcases and Terracotta walls; close three-quarter at fireplace corner 35mm"
+    }
+  ],
+  "idea": "Five bookcase-paint plus wall-color pairs shown as textured showroom samples, each followed by the same 1893 Victorian home library in Portland at summer golden hour from a different camera angle.",
+  "idea_en": "Five bookcase-paint plus wall-color pairs shown as textured showroom samples, each followed by the same 1893 Victorian home library in Portland at summer golden hour from a different camera angle."
+}
