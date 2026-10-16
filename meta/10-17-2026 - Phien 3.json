@@ -1,0 +1,67 @@
+{
+  "date": "10-17-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-17-2026 - Phien 3.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {
+      "image": "01",
+      "scene": 2,
+      "role": "hook / calmest loop frame",
+      "note": "Long horizontal lime-plaster niche with LED strip and three stoneware vessels"
+    },
+    {
+      "image": "02",
+      "scene": 3,
+      "role": "rule reveal",
+      "note": "Tall slender five-shelf bleached-ash column with cane back at far-left corner"
+    },
+    {
+      "image": "03",
+      "scene": 4,
+      "role": "build",
+      "note": "Centered recessed oak bench alcove with oat tile back and two cubbies"
+    },
+    {
+      "image": "04",
+      "scene": 5,
+      "role": "build",
+      "note": "Two stacked short walnut-back niches with brass trim and candlesticks/bonsai"
+    },
+    {
+      "image": "05",
+      "scene": 6,
+      "role": "build (brightest frame)",
+      "note": "Full end wall of fluted white-oak battens with two glowing ledges"
+    },
+    {
+      "image": "06",
+      "scene": 7,
+      "role": "build",
+      "note": "Narrow three-cubby smoked-ash column right of center beside a sconce"
+    },
+    {
+      "image": "07",
+      "scene": 8,
+      "role": "build (quietest option)",
+      "note": "Single small square travertine niche with one basalt bowl"
+    },
+    {
+      "image": "08",
+      "scene": 9,
+      "role": "build (signature shape)",
+      "note": "Tall arched terracotta clay-plaster niche with five lit shelves"
+    },
+    {
+      "image": "09",
+      "scene": 10,
+      "role": "final option",
+      "note": "Three narrow backlit ribbed-glass slot openings with staggered objects"
+    }
+  ],
+  "idea": "One late-August-afternoon upstairs hallway in a 2019 Hillsboro new-build, shot from one locked low frontal frame, cycling through 9 end-wall built-in layouts from a long lime-plaster niche to three backlit ribbed-glass slot openings.",
+  "idea_en": "One late-August-afternoon upstairs hallway in a 2019 Hillsboro new-build, shot from one locked low frontal frame, cycling through 9 end-wall built-in layouts from a long lime-plaster niche to three backlit ribbed-glass slot openings."
+}
