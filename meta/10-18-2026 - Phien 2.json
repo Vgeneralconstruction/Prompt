@@ -1,0 +1,108 @@
+{
+  "date": "10-18-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-18-2026 - Phien 2.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "E1 hook before (typewriter line 1 over it)",
+      "note": "bare dormer shell with framed bench box and capped sconce wire, rain-grey midday"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "W1 reveal 1 / cover and loop frame (typewriter line 2 over it)",
+      "note": "fumed-oak window seat with drawers, warm-white shelf towers, brass picture light"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "E2 before 2",
+      "note": "bed-wall rough-in with two framed arched niches, low sun break"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "W2 reveal 2",
+      "note": "espresso-walnut slatted headboard wall with two lit arched niches"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "E3 before 3",
+      "note": "gable-end wall with arch cut in drywall, frosty clear noon"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "W3 reveal 3",
+      "note": "bleached-ash fluted dressing desk with arched LED mirror"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "E4 before 4",
+      "note": "eave closet rough-in with blocking and LED strip, rainy midday"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "W4 reveal 4",
+      "note": "cedar-lined eave closet with smoked-glass shoe cabinets"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "E5 before 5 (longest)",
+      "note": "ensuite shell with capped copper stubs, sun break"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "W5 reveal 5 = climax (only coloured scheme)",
+      "note": "cobalt-blue lacquered fluted vanity, limestone top, brass mirror (climax)"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "E6 before 6",
+      "note": "suite entry hall bare with framed cabinet opening, fog"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "W6 reveal 6 / landing",
+      "note": "oat fluted-panel wardrobe with ribbed-glass uppers"
+    }
+  ],
+  "labels": {
+    "line_1": "BASEMENT",
+    "line_2": "BUILT-INS"
+  },
+  "idea": "Six bare 1948 Cape Cod primary-suite shells become six built-in storage and dressing zones: dormer window seat, walnut headboard wall, ash dressing desk, cedar eave closet, cobalt ensuite vanity (climax), oat hallway wardrobe.",
+  "idea_en": "Six bare 1948 Cape Cod primary-suite shells become six built-in storage and dressing zones: dormer window seat, walnut headboard wall, ash dressing desk, cedar eave closet, cobalt ensuite vanity (climax), oat hallway wardrobe."
+}
