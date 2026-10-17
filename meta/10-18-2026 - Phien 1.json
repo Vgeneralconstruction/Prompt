@@ -1,0 +1,103 @@
+{
+  "date": "10-18-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-18-2026 - Phien 1.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "sample",
+      "pair": 1,
+      "note": "Two upright showroom samples: Deep Juniper (satin lacquer) and Warm Bone (lime plaster)",
+      "labels": [
+        "DEEP JUNIPER",
+        "WARM BONE"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "pair": 1,
+      "note": "2019 Hillsboro new-build entryway, Deep Juniper cabinetry and Warm Bone walls; straight-on one-point from hall toward front door 24mm"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "sample",
+      "pair": 2,
+      "note": "Two upright showroom samples: Burnt Sienna (satin lacquer) and Sea Salt (limewash)",
+      "labels": [
+        "BURNT SIENNA",
+        "SEA SALT"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "pair": 2,
+      "note": "2019 Hillsboro new-build entryway, Burnt Sienna cabinetry and Sea Salt walls; low three-quarter along bench 28mm"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "sample",
+      "pair": 3,
+      "note": "Two upright showroom samples: Midnight Navy (matte lacquer) and Butter Cream (plaster)",
+      "labels": [
+        "MIDNIGHT NAVY",
+        "BUTTER CREAM"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "pair": 3,
+      "note": "2019 Hillsboro new-build entryway, Midnight Navy cabinetry and Butter Cream walls; high diagonal from stair landing 24mm"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "sample",
+      "pair": 4,
+      "note": "Two upright showroom samples: Walnut Brown (satin lacquer) and Lilac Grey (clay plaster)",
+      "labels": [
+        "WALNUT BROWN",
+        "LILAC GREY"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "pair": 4,
+      "note": "2019 Hillsboro new-build entryway, Walnut Brown cabinetry and Lilac Grey walls; reverse view from front-door threshold 28mm"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "sample",
+      "pair": 5,
+      "note": "Two upright showroom samples: Mossy Olive (matte lacquer) and Blush Clay (limewash)",
+      "labels": [
+        "MOSSY OLIVE",
+        "BLUSH CLAY"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "pair": 5,
+      "note": "2019 Hillsboro new-build entryway, Mossy Olive cabinetry and Blush Clay walls; close three-quarter on bench end 35mm"
+    }
+  ],
+  "idea": "Five entryway built-in cabinetry paint plus wall color pairs shown as textured showroom samples, each followed by the same 2019 Hillsboro new-build entryway at spring golden hour from a different camera angle.",
+  "idea_en": "Five entryway built-in cabinetry paint plus wall color pairs shown as textured showroom samples, each followed by the same 2019 Hillsboro new-build entryway at spring golden hour from a different camera angle."
+}
