@@ -1,0 +1,103 @@
+{
+  "date": "10-19-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-19-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "sample",
+      "pair": 1,
+      "note": "Two upright showroom samples: Persimmon (high-gloss lacquer door) and Driftwood Grey (cedar stain lap siding)",
+      "labels": [
+        "PERSIMMON",
+        "DRIFTWOOD GREY"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "pair": 1,
+      "note": "1926 Portland bungalow front porch, Persimmon door and ceiling, Driftwood Grey siding; straight-on from front walkway 28mm 1.5 m"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "sample",
+      "pair": 2,
+      "note": "Two upright showroom samples: Peacock Teal (satin lacquer) and Churn Butter (matte paint lap siding)",
+      "labels": [
+        "PEACOCK TEAL",
+        "CHURN BUTTER"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "pair": 2,
+      "note": "1926 Portland bungalow front porch, Peacock Teal door and ceiling, Churn Butter siding; low three-quarter from lawn looking up at door 24mm 0.6 m"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "sample",
+      "pair": 3,
+      "note": "Two upright showroom samples: Fir Needle (matte paint) and Desert Rose (mineral paint lap siding)",
+      "labels": [
+        "FIR NEEDLE",
+        "DESERT ROSE"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "pair": 3,
+      "note": "1926 Portland bungalow front porch, Fir Needle door and ceiling, Desert Rose siding; along the porch from left end toward door 24mm 1.4 m"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "sample",
+      "pair": 4,
+      "note": "Two upright showroom samples: Aubergine (satin lacquer) and Sea Glass (soft-sheen paint lap siding)",
+      "labels": [
+        "AUBERGINE",
+        "SEA GLASS"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "pair": 4,
+      "note": "1926 Portland bungalow front porch, Aubergine door and ceiling, Sea Glass siding; from porch swing looking back at door 35mm 1.0 m"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "sample",
+      "pair": 5,
+      "note": "Two upright showroom samples: Marigold (high-gloss lacquer) and Storm Slate (matte paint lap siding)",
+      "labels": [
+        "MARIGOLD",
+        "STORM SLATE"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "pair": 5,
+      "note": "1926 Portland bungalow front porch, Marigold door and ceiling, Storm Slate siding; high diagonal from across the street 35mm 2.0 m"
+    }
+  ],
+  "idea": "Five front-door plus siding color pairs shown as textured showroom samples, each followed by the same 1926 Portland bungalow front porch in a spring sun break after rain from a different camera angle.",
+  "idea_en": "Five front-door plus siding color pairs shown as textured showroom samples, each followed by the same 1926 Portland bungalow front porch in a spring sun break after rain from a different camera angle."
+}
