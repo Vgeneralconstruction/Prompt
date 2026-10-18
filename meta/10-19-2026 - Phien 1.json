@@ -1,0 +1,108 @@
+{
+  "date": "10-19-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-19-2026 - Phien 1.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "E1 hook before (typewriter line 1 over it)",
+      "note": "bare Tudor study bay with framed window-seat box and capped picture-light wire, last gold sun"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "W1 reveal 1 / cover and loop frame (typewriter line 2 over it)",
+      "note": "bleached-ash library wall, cane lower cabinet, floating bay desk, lit shelves"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "E2 before 2",
+      "note": "under-stair nook rough-in with framed arch, blue hour"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "W2 reveal 2",
+      "note": "smoked-walnut stair-slope desk nook with lit arched niche"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "E3 before 3",
+      "note": "attic knee walls with blocking, rainy dusk"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "W3 reveal 3",
+      "note": "cream limewash attic office, white-oak knee-wall drawers and desk"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "E4 before 4",
+      "note": "sunroom shell with chalked shelf line, low sun"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "W4 reveal 4",
+      "note": "charcoal oak desk run with cane doors, black steel brackets"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "E5 before 5 (longest)",
+      "note": "fireplace den shell with two framed cabinet openings"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "W5 reveal 5 = climax (only coloured scheme)",
+      "note": "peacock-teal lacquered bookcases flanking fireplace, library ladder (climax)"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "E6 before 6",
+      "note": "bare upstairs closet with framed opening"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "W6 reveal 6 / landing",
+      "note": "oat fluted-panel fold-away closet office with ribbed-glass uppers"
+    }
+  ],
+  "labels": {
+    "line_1": "HOME OFFICE",
+    "line_2": "BUILT-INS"
+  },
+  "idea": "Six bare 1936 English Tudor Revival rooms become six built-in home-office zones: bay-window library desk, under-stair walnut nook, attic knee-wall office, sunroom desk run, peacock-teal fireplace library (climax), closet fold-away office.",
+  "idea_en": "Six bare 1936 English Tudor Revival rooms become six built-in home-office zones: bay-window library desk, under-stair walnut nook, attic knee-wall office, sunroom desk run, peacock-teal fireplace library (climax), closet fold-away office."
+}
