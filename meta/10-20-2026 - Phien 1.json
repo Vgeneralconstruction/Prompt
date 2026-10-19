@@ -1,0 +1,73 @@
+{
+  "date": "10-20-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-20-2026 - Phien 1.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "door": "D1",
+      "role": "hook strobe / loop frame",
+      "note": "Pantry door: fluted bronze glass"
+    },
+    {
+      "image": "02",
+      "door": "D2",
+      "role": "strobe/hold",
+      "note": "Pantry door: arched cream"
+    },
+    {
+      "image": "03",
+      "door": "D3",
+      "role": "strobe",
+      "note": "Pantry door: bottle-green flush shadow-gap"
+    },
+    {
+      "image": "04",
+      "door": "D4",
+      "role": "strobe/hold",
+      "note": "Pantry door: black steel smoked glass"
+    },
+    {
+      "image": "05",
+      "door": "D5",
+      "role": "hold",
+      "note": "Pantry door: concealed jib in wall"
+    },
+    {
+      "image": "06",
+      "door": "D6",
+      "role": "hold",
+      "note": "Pantry door: rift white oak"
+    },
+    {
+      "image": "07",
+      "door": "D7",
+      "role": "hold",
+      "note": "Pantry door: smoked walnut"
+    },
+    {
+      "image": "08",
+      "door": "D8",
+      "role": "strobe",
+      "note": "Pantry door: navy Dutch door"
+    },
+    {
+      "image": "09",
+      "door": "D9",
+      "role": "showpiece / last hold",
+      "note": "Pantry door: sculpted wave relief"
+    },
+    {
+      "image": "10",
+      "door": "D10",
+      "role": "strobe/slowdown",
+      "note": "Pantry door: cane panel in ash frame"
+    }
+  ],
+  "idea": "One fixed Portland 1951 Cape Cod kitchen on a rainy autumn afternoon where only the pantry door changes through 10 designs.",
+  "idea_en": "One fixed Portland 1951 Cape Cod kitchen on a rainy autumn afternoon where only the pantry door changes through 10 designs."
+}
