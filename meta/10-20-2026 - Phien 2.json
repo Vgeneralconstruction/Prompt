@@ -1,0 +1,103 @@
+{
+  "date": "10-20-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-20-2026 - Phien 2.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "sample",
+      "pair": 1,
+      "note": "Two upright showroom samples: Spruce Moss (satin paint on cedar lap siding) and Weathered Oat (stain on fence board)",
+      "labels": [
+        "SPRUCE MOSS",
+        "WEATHERED OAT"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "pair": 1,
+      "note": "Portland 1940s bungalow backyard, Spruce Moss shed and pergola, Weathered Oat fence and siding; straight-on one-point from back-door step toward shed 24mm"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "sample",
+      "pair": 2,
+      "note": "Two upright showroom samples: Harbor Blue (satin paint on cedar lap siding) and Silver Birch (stain on fence board)",
+      "labels": [
+        "HARBOR BLUE",
+        "SILVER BIRCH"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "pair": 2,
+      "note": "Portland 1940s bungalow backyard, Harbor Blue shed and pergola, Silver Birch fence and siding; low three-quarter from lawn corner looking up pergola posts 24mm"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "sample",
+      "pair": 3,
+      "note": "Two upright showroom samples: Rust Maple (satin paint on cedar lap siding) and Charcoal Smoke (stain on fence board)",
+      "labels": [
+        "RUST MAPLE",
+        "CHARCOAL SMOKE"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "pair": 3,
+      "note": "Portland 1940s bungalow backyard, Rust Maple shed and pergola, Charcoal Smoke fence and siding; high diagonal from upstairs back window over patio 28mm"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "sample",
+      "pair": 4,
+      "note": "Two upright showroom samples: Mustard Cedar (satin paint on cedar lap siding) and Storm Grey (stain on fence board)",
+      "labels": [
+        "MUSTARD CEDAR",
+        "STORM GREY"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "pair": 4,
+      "note": "Portland 1940s bungalow backyard, Mustard Cedar shed and pergola, Storm Grey fence and siding; reverse view from open shed door back toward house 28mm"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "sample",
+      "pair": 5,
+      "note": "Two upright showroom samples: Black Fir (satin paint on cedar lap siding) and Honey Cedar (stain on fence board)",
+      "labels": [
+        "BLACK FIR",
+        "HONEY CEDAR"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "pair": 5,
+      "note": "Portland 1940s bungalow backyard, Black Fir shed and pergola, Honey Cedar fence and siding; close three-quarter on fence corner by raised bed 35mm"
+    }
+  ],
+  "idea": "Five shed-and-pergola plus fence-and-siding color pairs revealed on the same Portland 1940s bungalow backyard in October light.",
+  "idea_en": "Five shed-and-pergola plus fence-and-siding color pairs revealed on the same Portland 1940s bungalow backyard in October light."
+}
