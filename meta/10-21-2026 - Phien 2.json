@@ -1,0 +1,103 @@
+{
+  "date": "10-21-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-21-2026 - Phien 2.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "sample",
+      "pair": 1,
+      "note": "Two upright showroom samples: DARK COCOA (cabinet door lacquer) and PALE CELADON (limewash wall)",
+      "labels": [
+        "DARK COCOA",
+        "PALE CELADON"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "pair": 1,
+      "note": "Cape Cod study, DARK COCOA built-ins and PALE CELADON walls; straight-on one-point toward window wall 24mm"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "sample",
+      "pair": 2,
+      "note": "Two upright showroom samples: DELFT BLUE (cabinet door lacquer) and SOFT STRAW (limewash wall)",
+      "labels": [
+        "DELFT BLUE",
+        "SOFT STRAW"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "pair": 2,
+      "note": "Cape Cod study, DELFT BLUE built-ins and SOFT STRAW walls; diagonal from hall doorway corner 24mm"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "sample",
+      "pair": 3,
+      "note": "Two upright showroom samples: GARNET RED (cabinet door lacquer) and LIMESTONE GREY (limewash wall)",
+      "labels": [
+        "GARNET RED",
+        "LIMESTONE GREY"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "pair": 3,
+      "note": "Cape Cod study, GARNET RED built-ins and LIMESTONE GREY walls; low angle from floor beside left bookcase looking up the shelves 24mm"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "sample",
+      "pair": 4,
+      "note": "Two upright showroom samples: SAFFRON GOLD (cabinet door lacquer) and SLATE INK (limewash wall)",
+      "labels": [
+        "SAFFRON GOLD",
+        "SLATE INK"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "pair": 4,
+      "note": "Cape Cod study, SAFFRON GOLD built-ins and SLATE INK walls; over-the-shoulder from desk chair looking out the window 35mm"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "sample",
+      "pair": 5,
+      "note": "Two upright showroom samples: OATMEAL (cabinet door lacquer) and MIDNIGHT TEAL (limewash wall)",
+      "labels": [
+        "OATMEAL",
+        "MIDNIGHT TEAL"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "pair": 5,
+      "note": "Cape Cod study, OATMEAL built-ins and MIDNIGHT TEAL walls; high corner view looking diagonally down 28mm"
+    }
+  ],
+  "idea": "Five built-in cabinet + wall color pairs for a 1948 Portland Cape Cod ground-floor study, each shown as showroom samples then the finished study on a winter late afternoon.",
+  "idea_en": "Five built-in cabinet + wall color pairs for a 1948 Portland Cape Cod ground-floor study, each shown as showroom samples then the finished study on a winter late afternoon."
+}
