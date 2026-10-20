@@ -1,0 +1,23 @@
+{
+  "date": "10-21-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-21-2026 - Phien 3.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {"image": "01", "door": "D1", "role": "hook strobe / loop frame", "note": "Hallway door: fluted bronze glass"},
+    {"image": "02", "door": "D2", "role": "strobe/hold", "note": "Hallway door: arched cream"},
+    {"image": "03", "door": "D3", "role": "strobe", "note": "Hallway door: moss-olive flush shadow-gap"},
+    {"image": "04", "door": "D4", "role": "strobe/hold", "note": "Hallway door: black steel smoked glass"},
+    {"image": "05", "door": "D5", "role": "hold", "note": "Hallway door: concealed jib in plaster wall"},
+    {"image": "06", "door": "D6", "role": "hold", "note": "Hallway door: rift white oak"},
+    {"image": "07", "door": "D7", "role": "hold", "note": "Hallway door: smoked walnut"},
+    {"image": "08", "door": "D8", "role": "strobe/hold", "note": "Hallway door: cream three-panel moulded"},
+    {"image": "09", "door": "D9", "role": "showpiece / last hold", "note": "Hallway door: sculpted wave relief"},
+    {"image": "10", "door": "D10", "role": "strobe/slowdown", "note": "Hallway door: white flush with light ash architrave"}
+  ],
+  "idea": "One fixed Portland 1946 Cape Cod upstairs hallway in warm late-afternoon autumn sun where only the end-of-hall door changes through 10 designs.",
+  "idea_en": "One fixed Portland 1946 Cape Cod upstairs hallway in warm late-afternoon autumn sun where only the end-of-hall door changes through 10 designs."
+}
