@@ -1,0 +1,67 @@
+{
+  "date": "10-21-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-21-2026 - Phien 1.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {
+      "image": "01",
+      "scene": 2,
+      "role": "hook / calmest loop frame",
+      "note": "Long horizontal lime-plaster niche with LED strip above the bed, three stoneware vessels"
+    },
+    {
+      "image": "02",
+      "scene": 3,
+      "role": "rule reveal",
+      "note": "Tall slender five-shelf smoked-ash cane column at far-left corner"
+    },
+    {
+      "image": "03",
+      "scene": 4,
+      "role": "build",
+      "note": "Full-height centered oat bouclé channel-tufted headboard panel with two brass swing-arm sconces"
+    },
+    {
+      "image": "04",
+      "scene": 5,
+      "role": "build",
+      "note": "Overhead bridge cabinet in rift white oak with two flanking towers and recessed downlights"
+    },
+    {
+      "image": "05",
+      "scene": 6,
+      "role": "build / brightest frame",
+      "note": "Whole wall in cream zellige tile with two full-width glowing oak ledges"
+    },
+    {
+      "image": "06",
+      "scene": 7,
+      "role": "build",
+      "note": "Narrow forest-green lacquered three-cubby column right of center with brass-lined cubbies"
+    },
+    {
+      "image": "07",
+      "scene": 8,
+      "role": "quietest option",
+      "note": "Single small square terracotta microcement niche centered at 6 ft with one vase and spotlight"
+    },
+    {
+      "image": "08",
+      "scene": 9,
+      "role": "signature shape",
+      "note": "Tall arched ink-blue plaster alcove behind the bed with lit floating oak shelves"
+    },
+    {
+      "image": "09",
+      "scene": 10,
+      "role": "final option / most elaborate",
+      "note": "Three narrow brass-framed lapis-tile edge-lit slot niches with staggered objects"
+    }
+  ],
+  "idea": "Same Portland daylight-basement ADU bedroom in winter afternoon sun, nine headboard-wall designs swapped in one locked corner-angle frame.",
+  "idea_en": "Same Portland daylight-basement ADU bedroom in winter afternoon sun, nine headboard-wall designs swapped in one locked corner-angle frame."
+}
