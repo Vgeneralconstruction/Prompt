@@ -1,0 +1,93 @@
+{
+  "date": "10-22-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-22-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "hook",
+      "note": "Deck-board stain + railing enamel samples: HONEY TEAK / FERN GREEN",
+      "labels": [
+        "HONEY TEAK",
+        "FERN GREEN"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "note": "Rear deck with HONEY TEAK floor and FERN GREEN railing, diagonal from top of steps"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "color pair",
+      "note": "Deck-board stain + railing enamel samples: DRIFTWOOD GREY / BUTTER CREAM",
+      "labels": [
+        "DRIFTWOOD GREY",
+        "BUTTER CREAM"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "note": "Rear deck with DRIFTWOOD GREY floor and BUTTER CREAM railing, through-railing close view"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "color pair",
+      "note": "Deck-board stain + railing enamel samples: ESPRESSO BROWN / FOG WHITE",
+      "labels": [
+        "ESPRESSO BROWN",
+        "FOG WHITE"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "note": "Rear deck with ESPRESSO BROWN floor and FOG WHITE railing, from inside the open kitchen door"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "color pair",
+      "note": "Deck-board stain + railing enamel samples: RED CEDAR / INK NAVY",
+      "labels": [
+        "RED CEDAR",
+        "INK NAVY"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "note": "Rear deck with RED CEDAR floor and INK NAVY railing, low angle along deck boards"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "color pair",
+      "note": "Deck-board stain + railing enamel samples: WEATHERED OAK / OXBLOOD",
+      "labels": [
+        "WEATHERED OAK",
+        "OXBLOOD"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "note": "Rear deck with WEATHERED OAK floor and OXBLOOD railing, high corner from porch-roof level"
+    }
+  ],
+  "idea": "Five deck-floor stain + railing/trim enamel color pairs, each shown as physical showroom samples and then on the rear deck of a Portland 1889 Italianate Victorian in early-autumn low sun.",
+  "idea_en": "Five deck-floor stain + railing/trim enamel color pairs, each shown as physical showroom samples and then on the rear deck of a Portland 1889 Italianate Victorian in early-autumn low sun."
+}
