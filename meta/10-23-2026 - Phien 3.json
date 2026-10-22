@@ -1,0 +1,104 @@
+{
+  "date": "10-23-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-23-2026 - Phien 3.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "E1 hook before (typewriter line 1 over it)",
+      "note": "bare garage-entry wall with framed arched recess and capped niche-light wires, golden winter sun through sidelight"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "W1 reveal 1 / cover and loop frame (typewriter line 2 over it)",
+      "note": "bleached white-oak lockers with cane-front uppers and lit arched niche"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "E2 before 2",
+      "note": "under-stair alcove rough-in with insulation and framed drawer opening, grey rain light"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "W2 reveal 2",
+      "note": "smoked-walnut boot drawers with cane-front bench under the stair"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "E3 before 3",
+      "note": "pet-wash nook shell with plumbing stubs and membrane, pale sun break"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "W3 reveal 3",
+      "note": "oat zellige dog-wash bay with black sprayer and teak shelf"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "E4 before 4",
+      "note": "pass-through wall with counter cut-out and loose USB box, blue-hour dusk"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "W4 reveal 4",
+      "note": "charcoal-oak drop-zone counter with charging puck and cork pinboard"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "E5 before 5 (longest)",
+      "note": "back wall framed with six open locker bays, golden low sun"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "W5 reveal 5 = climax (only coloured scheme)",
+      "note": "aubergine-plum lacquer full-wall lockers with brass pulls"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "E6 before 6",
+      "note": "front-entry coat zone with framed closet opening and ribbed glass boxes, foggy blue evening"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "W6 reveal 6 / landing",
+      "note": "bleached-ash coat closet with ribbed-glass doors and fold-down oak bench"
+    }
+  ],
+  "idea": "Six bare zones of a 2019 Hillsboro new-build mudroom and entry turn into six different built-ins, climaxing on an aubergine-plum lacquer locker wall.",
+  "idea_en": "Six bare zones of a 2019 Hillsboro new-build mudroom and entry turn into six different built-ins, climaxing on an aubergine-plum lacquer locker wall."
+}
