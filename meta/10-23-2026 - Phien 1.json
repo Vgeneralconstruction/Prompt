@@ -1,0 +1,23 @@
+{
+  "date": "10-23-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-23-2026 - Phien 1.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {"image": "01", "door": "D1", "role": "hook strobe / loop frame", "note": "Entry door: fluted bronze glass"},
+    {"image": "02", "door": "D2", "role": "strobe/hold", "note": "Entry door: arched cream"},
+    {"image": "03", "door": "D3", "role": "strobe", "note": "Entry door: bottle-green flush shadow-gap"},
+    {"image": "04", "door": "D4", "role": "strobe/hold", "note": "Entry door: black steel smoked glass"},
+    {"image": "05", "door": "D5", "role": "hold", "note": "Entry door: concealed jib in wainscot/plaster wall"},
+    {"image": "06", "door": "D6", "role": "hold", "note": "Entry door: rift white oak"},
+    {"image": "07", "door": "D7", "role": "hold", "note": "Entry door: smoked walnut"},
+    {"image": "08", "door": "D8", "role": "strobe/hold", "note": "Entry door: cream three-panel moulded"},
+    {"image": "09", "door": "D9", "role": "showpiece / last hold", "note": "Entry door: sculpted wave relief"},
+    {"image": "10", "door": "D10", "role": "strobe/slowdown", "note": "Entry door: white flush with pale ash architrave"}
+  ],
+  "idea": "One fixed Portland backyard-ADU entry vestibule on a cold winter morning where only the interior door changes through 10 designs.",
+  "idea_en": "One fixed Portland backyard-ADU entry vestibule on a cold winter morning where only the interior door changes through 10 designs."
+}
