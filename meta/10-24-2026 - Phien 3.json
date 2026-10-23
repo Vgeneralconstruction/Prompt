@@ -1,0 +1,104 @@
+{
+  "date": "10-24-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-24-2026 - Phien 3.md",
+  "vf_id": "VF-006",
+  "spec": "Library/formats/VF-006.md",
+  "audio": "Audio-assets/VF-006.mp3",
+  "image_count": 12,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role": "E1 hook before (typewriter line 1 over it)",
+      "note": "egress-window sleeping nook, golden midday sun"
+    },
+    {
+      "image": "02",
+      "scene": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "role": "W1 reveal 1 / cover and loop frame (typewriter line 2 over it)",
+      "note": "white-oak window bench with drawers and lit slot shelf"
+    },
+    {
+      "image": "03",
+      "scene": 18,
+      "role": "E2 before 2",
+      "note": "under-stair alcove rough-in, marine-layer overcast"
+    },
+    {
+      "image": "04",
+      "scene": 19,
+      "role": "W2 reveal 2",
+      "note": "smoked-walnut pull-out pantry drawers"
+    },
+    {
+      "image": "05",
+      "scene": 20,
+      "role": "E3 before 3",
+      "note": "kitchenette wall shell with plumbing stubs, golden 6 pm sun"
+    },
+    {
+      "image": "06",
+      "scene": 21,
+      "role": "W3 reveal 3",
+      "note": "cream limewash kitchenette with terrazzo-look counter"
+    },
+    {
+      "image": "07",
+      "scene": 22,
+      "role": "E4 before 4",
+      "note": "living wall shell with framed recess, wildfire-haze amber light"
+    },
+    {
+      "image": "08",
+      "scene": 23,
+      "role": "W4 reveal 4",
+      "note": "charcoal-oak fold-down bed wall with desk"
+    },
+    {
+      "image": "09",
+      "scene": 24,
+      "role": "E5 before 5 (longest)",
+      "note": "back wall shell with media recess and four bays, dappled noon"
+    },
+    {
+      "image": "10",
+      "scene": 25,
+      "role": "W5 reveal 5 = climax (only coloured scheme)",
+      "note": "persimmon-orange lacquer full-wall cabinetry"
+    },
+    {
+      "image": "11",
+      "scene": 26,
+      "role": "E6 before 6",
+      "note": "entry laundry closet shell, blue dusk"
+    },
+    {
+      "image": "12",
+      "scene": 27,
+      "role": "W6 reveal 6 / landing",
+      "note": "fog-grey laundry closet with ribbed-glass doors"
+    }
+  ],
+  "idea": "Six bare zones of a 2020 SE Portland daylight-basement ADU (egress-window nook, under-stair pantry, kitchenette, fold-down bed wall, media wall, entry laundry closet) turn into six different built-ins in six summer light moments, climaxing on a persimmon-orange lacquer cabinet wall.",
+  "idea_en": "Six bare zones of a 2020 SE Portland daylight-basement ADU (egress-window nook, under-stair pantry, kitchenette, fold-down bed wall, media wall, entry laundry closet) turn into six different built-ins in six summer light moments, climaxing on a persimmon-orange lacquer cabinet wall."
+}
