@@ -1,0 +1,167 @@
+{
+  "date": "10-24-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-24-2026 - Phien 1.md",
+  "vf_id": "VF-003",
+  "spec": "Library/formats/VF-003.md",
+  "audio": "Audio-assets/VF-003.mp3",
+  "image_count": 14,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "pair 1 wrong",
+      "pair": 1,
+      "note": "doorbell: surface-mounted plastic doorbell button",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "pair 1 right",
+      "pair": 1,
+      "note": "doorbell: flush recessed video doorbell",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "pair 2 wrong",
+      "pair": 2,
+      "note": "downspout: thin white vinyl downspout",
+      "mark": {
+        "x": 0.55,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "pair 2 right",
+      "pair": 2,
+      "note": "downspout: matte-black rectangular downspout into flush drain grate",
+      "mark": {
+        "x": 0.55,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "pair 3 wrong",
+      "pair": 3,
+      "note": "porch wall light: builder-grade bronze coach lantern",
+      "mark": {
+        "x": 0.5,
+        "y": 0.42
+      }
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "pair 3 right",
+      "pair": 3,
+      "note": "porch wall light: slim matte-black up-down sconce",
+      "mark": {
+        "x": 0.5,
+        "y": 0.42
+      }
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "pair 4 wrong",
+      "pair": 4,
+      "note": "door hardware: brass knob plus bulky deadbolt",
+      "mark": {
+        "x": 0.55,
+        "y": 0.52
+      }
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "pair 4 right",
+      "pair": 4,
+      "note": "door hardware: slim black pull handle with keypad smart lock",
+      "mark": {
+        "x": 0.55,
+        "y": 0.52
+      }
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "pair 5 wrong",
+      "pair": 5,
+      "note": "step edge: chipped concrete step nosing",
+      "mark": {
+        "x": 0.5,
+        "y": 0.6
+      }
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "pair 5 right",
+      "pair": 5,
+      "note": "step edge: porcelain tread with non-slip nosing and LED strip",
+      "mark": {
+        "x": 0.5,
+        "y": 0.6
+      }
+    },
+    {
+      "image": "11",
+      "scene": 11,
+      "role": "pair 6 wrong",
+      "pair": 6,
+      "note": "post base: vinyl-wrapped wood post on slab",
+      "mark": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "image": "12",
+      "scene": 12,
+      "role": "pair 6 right",
+      "pair": 6,
+      "note": "post base: tapered post on stone pier base",
+      "mark": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "image": "13",
+      "scene": 13,
+      "role": "pair 7 wrong",
+      "pair": 7,
+      "note": "ceiling: vinyl soffit with dome light",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "14",
+      "scene": 14,
+      "role": "pair 7 right",
+      "pair": 7,
+      "note": "ceiling: cedar tongue-and-groove ceiling with recessed trimless downlight",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "idea": "Seven wrong-vs-right front porch details on a 2018 Washington County modern farmhouse, each outdated element replaced by its modern version at the same spot (doorbell, downspout, wall light, door hardware, step edge, post base, ceiling).",
+  "idea_en": "Seven wrong-vs-right front porch details on a 2018 Washington County modern farmhouse, each outdated element replaced by its modern version at the same spot (doorbell, downspout, wall light, door hardware, step edge, post base, ceiling)."
+}
