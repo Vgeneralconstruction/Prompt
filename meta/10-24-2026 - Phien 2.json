@@ -1,0 +1,61 @@
+{
+  "date": "10-24-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-24-2026 - Phien 2.md",
+  "vf_id": "VF-007",
+  "spec": "Library/formats/VF-007.md",
+  "audio": "Audio-assets/VF-007.mp3",
+  "image_count": 8,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "hook / loop frame",
+      "note": "Clean frontal symmetric vanity with arched backlit mirror and walnut drawer band"
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "build (tick 1)",
+      "note": "Frontal dark slat panel, pothos, trough sink and cream bouclé stool"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "build (tick 2)",
+      "note": "Three-quarter left, floating walnut vanity, round brass mirror, globe pendant, lit towel shelf"
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "build (tick 3)",
+      "note": "Three-quarter right, backlit linen tower niche, curved plaster column, brass faucet"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "reveal / climax (bass drop at 3.947s)",
+      "note": "Hero: curved lime-plaster wall, travertine monolith basin, stacked-wood totem lamp, arched opening to fluted door"
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "groove",
+      "note": "Angled, walnut console crossing backlit niche with brass trim, herringbone oak floor"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "groove",
+      "note": "Angled, terracotta backlit shelf niche with clay jars and books, pill mirror"
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "landing / long hold",
+      "note": "Angled, narrow arched backlit niche with pendant and art, walnut drawer, black door right"
+    }
+  ],
+  "idea": "Eight bathroom vanity-wall designs in one locked warm-greige style for a 1996 Beaverton contemporary home, from a calm arched-mirror vanity to a sculptural curved plaster wall with a totem lamp on the bass drop.",
+  "idea_en": "Eight bathroom vanity-wall designs in one locked warm-greige style for a 1996 Beaverton contemporary home, from a calm arched-mirror vanity to a sculptural curved plaster wall with a totem lamp on the bass drop."
+}
