@@ -1,0 +1,22 @@
+{
+  "date": "10-25-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-25-2026 - Phien 1.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {"image": "01", "scene": 2, "role": "hook hold (longest)", "note": "Single long brass hanging rail with one oak shelf above; calmest layout"},
+    {"image": "02", "scene": 3, "role": "reveal of the rule", "note": "Tall six-shelf smoked-oak column in the far-left corner"},
+    {"image": "03", "scene": 4, "role": "build", "note": "Centred walnut double-hang wardrobe bay"},
+    {"image": "04", "scene": 5, "role": "build", "note": "Two stacked terracotta-lined cubby grids, centred"},
+    {"image": "05", "scene": 6, "role": "build (brightest frame)", "note": "Full back wall in fluted white oak with two lit ledges"},
+    {"image": "06", "scene": 7, "role": "build", "note": "Slim brass-pull drawer tower right of centre by the window"},
+    {"image": "07", "scene": 8, "role": "build (quietest option)", "note": "Single small square plaster niche with one handbag"},
+    {"image": "08", "scene": 9, "role": "build (signature shape)", "note": "Tall arched plaster alcove, five backlit shelves"},
+    {"image": "09", "scene": [10, 11, 12], "role": "final option + outro fade + loop hold", "note": "Three narrow ribbed-glass slot cabinets, backlit, staggered shelves"}
+  ],
+  "idea": "One summer-morning walk-in closet in a 1912 Portland Foursquare, shot from one locked low frontal frame, cycling through 9 back-wall built-in layouts from a single brass rail to three backlit ribbed-glass slot cabinets.",
+  "idea_en": "One summer-morning walk-in closet in a 1912 Portland Foursquare, shot from one locked low frontal frame, cycling through 9 back-wall built-in layouts from a single brass rail to three backlit ribbed-glass slot cabinets."
+}
