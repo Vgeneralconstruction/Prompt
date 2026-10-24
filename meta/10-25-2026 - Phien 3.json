@@ -1,0 +1,71 @@
+{
+  "date": "10-25-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-25-2026 - Phien 3.md",
+  "vf_id": "VF-005",
+  "spec": "Library/formats/VF-005.md",
+  "audio": "Audio-assets/VF-005.mp3",
+  "image_count": 9,
+  "images": [
+    {
+      "image": "01",
+      "scene": 2,
+      "role": "hook hold (longest)",
+      "note": "Single long oak floating shelf with hanging mugs; calmest layout"
+    },
+    {
+      "image": "02",
+      "scene": 3,
+      "role": "reveal of the rule",
+      "note": "Tall black-steel glass-front tower in the far-left corner"
+    },
+    {
+      "image": "03",
+      "scene": 4,
+      "role": "build",
+      "note": "Centred Douglas-fir dowel plate rack"
+    },
+    {
+      "image": "04",
+      "scene": 5,
+      "role": "build",
+      "note": "Two stacked fluted-walnut boxes with copper pans, centred"
+    },
+    {
+      "image": "05",
+      "scene": 6,
+      "role": "build (brightest frame)",
+      "note": "Full wall of sage-green zellige to the ceiling with two lit oak ledges"
+    },
+    {
+      "image": "06",
+      "scene": 7,
+      "role": "build",
+      "note": "Slim forest-green cedar spice column right of centre by the window, copper rail"
+    },
+    {
+      "image": "07",
+      "scene": 8,
+      "role": "build (quietest option)",
+      "note": "Single small square plaster niche with one cookbook"
+    },
+    {
+      "image": "08",
+      "scene": 9,
+      "role": "build (signature shape)",
+      "note": "Tall arched plaster alcove, five backlit shelves, copper kettle"
+    },
+    {
+      "image": "09",
+      "scene": [
+        10,
+        11,
+        12
+      ],
+      "role": "final option + outro fade + loop hold",
+      "note": "Three narrow smoked-green ribbed-glass slot cabinets, lit from within"
+    }
+  ],
+  "idea": "One late-autumn rainy-day kitchen in a 2003 Tigard contemporary house, shot from one locked frontal frame, cycling through 9 above-counter back-wall built-in layouts from a single oak shelf with hanging mugs to three lit ribbed-glass slot cabinets.",
+  "idea_en": "One late-autumn rainy-day kitchen in a 2003 Tigard contemporary house, shot from one locked frontal frame, cycling through 9 above-counter back-wall built-in layouts from a single oak shelf with hanging mugs to three lit ribbed-glass slot cabinets."
+}
