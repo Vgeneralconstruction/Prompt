@@ -1,0 +1,89 @@
+{
+  "date": "10-26-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-26-2026 - Phien 2.md",
+  "vf_id": "VF-002",
+  "spec": "Library/formats/VF-002.md",
+  "audio": "Audio-assets/VF-002.mp3",
+  "image_count": 7,
+  "images": [
+    {
+      "image": "01",
+      "scene": [
+        1,
+        4,
+        11,
+        20
+      ],
+      "role": "hook / hold 1, most dramatic",
+      "note": "oxblood glossy crackle-glaze stacked tile"
+    },
+    {
+      "image": "02",
+      "scene": [
+        2,
+        21
+      ],
+      "role": "hold 2",
+      "note": "oatmeal fluted lime plaster"
+    },
+    {
+      "image": "03",
+      "scene": [
+        3,
+        6,
+        9,
+        14,
+        19,
+        22
+      ],
+      "role": "hold 3",
+      "note": "forest-green beadboard with brass rail"
+    },
+    {
+      "image": "04",
+      "scene": [
+        7,
+        10,
+        15,
+        18,
+        23
+      ],
+      "role": "hold 4",
+      "note": "white terrazzo slab with sage and terracotta chips"
+    },
+    {
+      "image": "05",
+      "scene": [
+        8,
+        13,
+        16,
+        24
+      ],
+      "role": "hold 5",
+      "note": "midnight-navy penny-round mosaic"
+    },
+    {
+      "image": "06",
+      "scene": [
+        5,
+        12,
+        25
+      ],
+      "role": "hold 6",
+      "note": "saffron-yellow handmade square tile"
+    },
+    {
+      "image": "07",
+      "scene": [
+        17,
+        26,
+        27
+      ],
+      "role": "hold 7 (longer), holds to end",
+      "note": "honey western red cedar tongue-and-groove"
+    }
+  ],
+  "idea": "One winter-morning laundry room in a 1950 Portland Cape Cod, shot from one locked right three-quarter frame, with the wall above the folding counter swapped through seven finishes from oxblood crackle tile to honey cedar.",
+  "idea_en": "One winter-morning laundry room in a 1950 Portland Cape Cod, shot from one locked right three-quarter frame, with the wall above the folding counter swapped through seven finishes from oxblood crackle tile to honey cedar."
+}
