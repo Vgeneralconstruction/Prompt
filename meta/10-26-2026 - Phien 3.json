@@ -1,0 +1,93 @@
+{
+  "date": "10-26-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-26-2026 - Phien 3.md",
+  "vf_id": "VF-001",
+  "spec": "Library/formats/VF-001.md",
+  "audio": "Audio-assets/VF-001.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "hook",
+      "note": "Stair-tread stain/enamel + wall plaster samples: WALNUT BROWN / OAT LINEN",
+      "labels": [
+        "WALNUT BROWN",
+        "OAT LINEN"
+      ]
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "reveal",
+      "note": "Bungalow entry stair hall with WALNUT BROWN treads and OAT LINEN walls, straight-on from the foot of the stairs"
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "color pair",
+      "note": "Stair-tread stain/enamel + wall plaster samples: EBONIZED OAK / SAGE GREEN",
+      "labels": [
+        "EBONIZED OAK",
+        "SAGE GREEN"
+      ]
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "reveal",
+      "note": "Bungalow entry stair hall with EBONIZED OAK treads and SAGE GREEN walls, diagonal from the landing looking down"
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "color pair",
+      "note": "Stair-tread stain/enamel + wall plaster samples: BLEACHED ASH / TERRACOTTA",
+      "labels": [
+        "BLEACHED ASH",
+        "TERRACOTTA"
+      ]
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "reveal",
+      "note": "Bungalow entry stair hall with BLEACHED ASH treads and TERRACOTTA walls, high view from the top step"
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "color pair",
+      "note": "Stair-tread stain/enamel + wall plaster samples: HONEY OAK / DEEP TEAL",
+      "labels": [
+        "HONEY OAK",
+        "DEEP TEAL"
+      ]
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "reveal",
+      "note": "Bungalow entry stair hall with HONEY OAK treads and DEEP TEAL walls, low close angle along the treads"
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "color pair",
+      "note": "Stair-tread stain/enamel + wall plaster samples: DRIFTWOOD GREY / DUSTY BLUSH",
+      "labels": [
+        "DRIFTWOOD GREY",
+        "DUSTY BLUSH"
+      ]
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "reveal",
+      "note": "Bungalow entry stair hall with DRIFTWOOD GREY treads and DUSTY BLUSH walls, wide side view through the living-room doorway"
+    }
+  ],
+  "idea": "Five stair-tread finish and wall color pairs, each shown as physical samples and then as the finished entry stair hall of a 1928 Portland bungalow.",
+  "idea_en": "Five stair-tread finish and wall color pairs, each shown as physical samples and then as the finished entry stair hall of a 1928 Portland bungalow."
+}
