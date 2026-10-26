@@ -1,0 +1,153 @@
+{
+  "date": "10-27-2026",
+  "session": 1,
+  "prompt_file": "prompts/10-27-2026 - Phien 1.md",
+  "vf_id": "VF-003",
+  "spec": "Library/formats/VF-003.md",
+  "audio": "Audio-assets/VF-003.mp3",
+  "image_count": 14,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "pair 1 wrong",
+      "note": "floor drain / mat: mat vinyl floor",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "pair 1 right",
+      "note": "floor drain / mat: flush linear boot-tray grate",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "pair 2 wrong",
+      "note": "wall hooks: mismatched screw hooks",
+      "mark": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "pair 2 right",
+      "note": "wall hooks: white-oak hook rail",
+      "mark": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "pair 3 wrong",
+      "note": "ceiling light: yellowed dome fixture",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "pair 3 right",
+      "note": "ceiling light: flat LED disc light",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "pair 4 wrong",
+      "note": "outlet: surface outlet with strip",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "pair 4 right",
+      "note": "outlet: recessed USB-C outlet",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "pair 5 wrong",
+      "note": "threshold: worn raised threshold",
+      "mark": {
+        "x": 0.5,
+        "y": 0.6
+      }
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "pair 5 right",
+      "note": "threshold: flush low-profile threshold",
+      "mark": {
+        "x": 0.5,
+        "y": 0.6
+      }
+    },
+    {
+      "image": "11",
+      "scene": 11,
+      "role": "pair 6 wrong",
+      "note": "shoe storage: wire shoe rack",
+      "mark": {
+        "x": 0.5,
+        "y": 0.65
+      }
+    },
+    {
+      "image": "12",
+      "scene": 12,
+      "role": "pair 6 right",
+      "note": "shoe storage: built-in bench with boot drawers",
+      "mark": {
+        "x": 0.5,
+        "y": 0.65
+      }
+    },
+    {
+      "image": "13",
+      "scene": 13,
+      "role": "pair 7 wrong",
+      "note": "closet door: sagging louvered bifold door",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "14",
+      "scene": 14,
+      "role": "pair 7 right",
+      "note": "closet door: flush closet door",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "idea": "Seven wrong-vs-right mudroom details in a 2016 Portland rowhouse townhouse, each outdated element replaced by its modern version at the same spot (floor, hooks, ceiling light, outlet, threshold, shoe storage, closet door).",
+  "idea_en": "Seven wrong-vs-right mudroom details in a 2016 Portland rowhouse townhouse, each outdated element replaced by its modern version at the same spot (floor, hooks, ceiling light, outlet, threshold, shoe storage, closet door)."
+}
