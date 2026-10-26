@@ -1,0 +1,153 @@
+{
+  "date": "10-27-2026",
+  "session": 3,
+  "prompt_file": "prompts/10-27-2026 - Phien 3.md",
+  "vf_id": "VF-003",
+  "spec": "Library/formats/VF-003.md",
+  "audio": "Audio-assets/VF-003.mp3",
+  "image_count": 14,
+  "images": [
+    {
+      "image": "01",
+      "scene": 1,
+      "role": "pair 1 wrong",
+      "note": "stair edge / lighting: worn splintered wood treads, no light",
+      "mark": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "image": "02",
+      "scene": 2,
+      "role": "pair 1 right",
+      "note": "stair edge / lighting: cedar treads with concealed LED strip under nosing",
+      "mark": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "image": "03",
+      "scene": 3,
+      "role": "pair 2 wrong",
+      "note": "post top: bare 4x4 post with cracked plastic cap",
+      "mark": {
+        "x": 0.5,
+        "y": 0.2
+      }
+    },
+    {
+      "image": "04",
+      "scene": 4,
+      "role": "pair 2 right",
+      "note": "post top: cedar-trimmed post with black steel cap downlight",
+      "mark": {
+        "x": 0.5,
+        "y": 0.2
+      }
+    },
+    {
+      "image": "05",
+      "scene": 5,
+      "role": "pair 3 wrong",
+      "note": "grill gas supply: portable propane grill with loose hose",
+      "mark": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "image": "06",
+      "scene": 6,
+      "role": "pair 3 right",
+      "note": "grill gas supply: built-in grill with flush gas quick-connect box",
+      "mark": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "image": "07",
+      "scene": 7,
+      "role": "pair 4 wrong",
+      "note": "privacy screen: warped plastic lattice",
+      "mark": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "image": "08",
+      "scene": 8,
+      "role": "pair 4 right",
+      "note": "privacy screen: horizontal cedar-slat screen in black steel frame",
+      "mark": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "image": "09",
+      "scene": 9,
+      "role": "pair 5 wrong",
+      "note": "fire feature: rusty fire pit ring on loose bricks",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "10",
+      "scene": 10,
+      "role": "pair 5 right",
+      "note": "fire feature: flush concrete gas fire table with fire glass",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "11",
+      "scene": 11,
+      "role": "pair 6 wrong",
+      "note": "overhead cover: torn sagging fabric awning",
+      "mark": {
+        "x": 0.5,
+        "y": 0.4
+      }
+    },
+    {
+      "image": "12",
+      "scene": 12,
+      "role": "pair 6 right",
+      "note": "overhead cover: slatted cedar pergola with recessed downlights",
+      "mark": {
+        "x": 0.5,
+        "y": 0.4
+      }
+    },
+    {
+      "image": "13",
+      "scene": 13,
+      "role": "pair 7 wrong",
+      "note": "patio door: brown aluminum sliding door with grimy track",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "image": "14",
+      "scene": 14,
+      "role": "pair 7 right",
+      "note": "patio door: black steel-framed French doors, flush handles",
+      "mark": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "idea": "Seven wrong-vs-right upgrade pairs on the rear deck of a 1970s Portland split-level, each outdated element replaced by its modern version at the same spot (stair edge, post top, grill gas supply, privacy screen, fire feature, overhead cover, patio door).",
+  "idea_en": "Seven wrong-vs-right upgrade pairs on the rear deck of a 1970s Portland split-level, each outdated element replaced by its modern version at the same spot (stair edge, post top, grill gas supply, privacy screen, fire feature, overhead cover, patio door)."
+}
