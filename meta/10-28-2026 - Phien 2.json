@@ -1,0 +1,73 @@
+{
+  "date": "10-28-2026",
+  "session": 2,
+  "prompt_file": "prompts/10-28-2026 - Phien 2.md",
+  "vf_id": "VF-004",
+  "spec": "Library/formats/VF-004.md",
+  "audio": "Audio-assets/VF-004.mp3",
+  "image_count": 10,
+  "images": [
+    {
+      "image": "01",
+      "door": "D1",
+      "role": "hook strobe / loop frame",
+      "note": "Boutique door: fluted bronze glass"
+    },
+    {
+      "image": "02",
+      "door": "D2",
+      "role": "strobe/slowdown",
+      "note": "Boutique door: arched cream"
+    },
+    {
+      "image": "03",
+      "door": "D3",
+      "role": "strobe",
+      "note": "Boutique door: bottle-green flush shadow-gap"
+    },
+    {
+      "image": "04",
+      "door": "D4",
+      "role": "strobe/hold",
+      "note": "Boutique door: black steel smoked glass"
+    },
+    {
+      "image": "05",
+      "door": "D5",
+      "role": "hold",
+      "note": "Boutique door: concealed jib in plaster wall"
+    },
+    {
+      "image": "06",
+      "door": "D6",
+      "role": "hold",
+      "note": "Boutique door: rift white oak"
+    },
+    {
+      "image": "07",
+      "door": "D7",
+      "role": "hold",
+      "note": "Boutique door: smoked walnut"
+    },
+    {
+      "image": "08",
+      "door": "D8",
+      "role": "strobe/hold",
+      "note": "Boutique door: cream three-panel moulded"
+    },
+    {
+      "image": "09",
+      "door": "D9",
+      "role": "showpiece / last hold",
+      "note": "Boutique door: sculpted wave relief"
+    },
+    {
+      "image": "10",
+      "door": "D10",
+      "role": "strobe/slowdown",
+      "note": "Boutique door: white flush with pale ash architrave"
+    }
+  ],
+  "idea": "One fixed Portland boutique back wall at summer blue-hour dusk where only the stockroom door changes through 10 designs.",
+  "idea_en": "One fixed Portland boutique back wall at summer blue-hour dusk where only the stockroom door changes through 10 designs."
+}
